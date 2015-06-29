@@ -1,0 +1,105 @@
+
+
+.initial-nav{
+    display: inline;
+    padding: 14px 10px;
+    color: white;
+}
+.nav {
+
+  font-size: 15px;
+  font-family: Helvetica;
+  font-weight: Bold;
+  position: relative;
+  background-color: orange;
+  box-shadow: 0px 1px 10px 1px #7DF9FF;
+
+}
+
+#name{
+    color:orange;
+}
+
+
+.hovered{
+    display: inline;
+    padding: 14px 10px;
+    color:#7DF9FF;
+}
+
+.ballsy{
+    padding-bottom:50px;
+}
+
+.jumbotron{
+    background-color:white;
+    height:430px;
+    background-image:url(http://inapcache.boston.com/universal/site_graphics/blogs/bigpicture/lhc_11_20/l11_00000001.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.moreStuff{
+    border-bottom: 3px solid orange;
+    padding-bottom:50px;
+
+
+}
+
+.Science{
+    border-bottom:3px solid orange;
+
+}
+
+.Writing{
+    border-bottom:2px solid orange;
+
+
+}
+
+.Design{
+    border-bottom:2px solid orange;
+
+}
+
+
+
+.active{
+
+}
+
+.contact{
+
+    background-color:#2f4f4f;
+    color:white;
+
+    height:100px;
+}
+
+
+.mas-info{
+
+    background-image:url(http://i.imgur.com/xMxFZab.png);
+    background-size:cover;
+}
+
+.slide{
+    background-image: url('http://upload.wikimedia.org/wikipedia/commons/c/c7/Puppy_on_Halong_Bay.jpg');
+    background-size:cover;
+
+}
+
+.invisbile{
+    visibility:hidden;
+}
+
+html{
+    background-color: #2F4F4F;
+    width:100%;
+    margin:0;
+    padding:0;
+}
+body{
+    margin:0;
+    padding:0;
+}
