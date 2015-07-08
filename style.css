@@ -8,11 +8,11 @@
 .nav {
 
   font-size: 15px;
-  font-family: Helvetica;
+
   font-weight: Bold;
   position: relative;
-  background-color: #00FFFF;
-  box-shadow: 0px 1px 10px 1px #7DF9FF;
+  background-color:  #00b0d6;
+  /*box-shadow: 0px 1px 10px 1px #7DF9FF;*/
 
 }
 
@@ -34,9 +34,10 @@
 .jumbotron{
     background-color:white;
     height:430px;
-    background-image:url(http://inapcache.boston.com/universal/site_graphics/blogs/bigpicture/lhc_11_20/l11_00000001.jpg);
+    background-image:url(http://i.imgur.com/kiqKU5z.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    border-bottom: 3px solid  #00b0d6;
 }
 
 .moreStuff{
@@ -98,8 +99,14 @@ html{
     width:100%;
     margin:0;
     padding:0;
+
 }
 body{
     margin:0;
     padding:0;
+}
+
+*{
+  font-family: "HelveticaNeue-Light", "HelveticaNeue",
+  Helvetica, Arial, "Lucida Grande", sans-serif;
 }
