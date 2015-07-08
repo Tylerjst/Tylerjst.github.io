@@ -9,9 +9,9 @@
 
   font-size: 15px;
 
-  font-weight: Bold;
+  /*font-weight: Bold;*/
   position: relative;
-  background-color:  #00b0d6;
+  background-color:  #00E5E5;
   /*box-shadow: 0px 1px 10px 1px #7DF9FF;*/
 
 }
@@ -31,35 +31,47 @@
     padding-bottom:50px;
 }
 
-.jumbotron{
+/*.jumbotron{
     background-color:white;
     height:430px;
     background-image:url(http://i.imgur.com/kiqKU5z.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    border-bottom: 3px solid  #00b0d6;
+    background-position: 0px -80px;
+    border-bottom: 3px solid  #00E5E5;
+}*/
+
+.jumbotron{
+    background-color:white;
+    height:430px;
+    background-image:url(http://i.imgur.com/sp1PXZO.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px -220px;
+    border-bottom: 3px solid  #00E5E5;
 }
 
+
 .moreStuff{
-    border-bottom: 3px solid orange;
+    border-bottom: 3px solid #00E5E5;
     padding-bottom:50px;
 
 
 }
 
 .Science{
-    border-bottom:3px solid orange;
+    border-bottom:3px solid #00E5E5;
 
 }
 
 .Writing{
-    border-bottom:2px solid orange;
+    border-bottom:2px solid #00E5E5;
 
 
 }
 
 .Design{
-    border-bottom:2px solid orange;
+    border-bottom:2px solid #00E5E5;
 
 }
 
@@ -73,7 +85,7 @@
 
     background-color:#2f4f4f;
     color:white;
-
+    border-top: 2px solid #00E5E5;
     height:100px;
 }
 
@@ -107,6 +119,5 @@ body{
 }
 
 *{
-  font-family: "HelveticaNeue-Light", "HelveticaNeue",
-  Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: "Roboto-Regular", "HelveticaNeue",sans-serif;
 }
