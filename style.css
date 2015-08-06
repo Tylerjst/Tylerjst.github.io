@@ -2,8 +2,10 @@
 
 .initial-nav{
     display: inline;
-    padding: 14px 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     color: white;
+    padding-top: 10px;
 }
 .nav {
 
@@ -42,12 +44,11 @@
 }*/
 
 .jumbotron{
-    background-color:white;
-    height:430px;
-    background-image:url(http://i.imgur.com/sp1PXZO.jpg);
-    background-repeat: no-repeat;
+    height:500px;
+    background-image:url(images/solar-3.jpg);
     background-size: cover;
-    background-position: 0px -220px;
+    background-repeat: no-repeat;
+    /*background-position: 0px -220px;*/
     border-bottom: 3px solid  #00E5E5;
 }
 
@@ -83,12 +84,43 @@
 
 .contact{
 
-    background-color:#2f4f4f;
+    background-color:#006666;
     color:white;
     border-top: 2px solid #00E5E5;
     height:100px;
+    padding: 25px;
 }
 
+.contact p{
+  margin-top: 10px;
+}
+
+.contact h4{
+  font-size: 24px;
+}
+.inner{
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+
+}
+
+.btn{
+  background-color: #006666;
+  color: white;
+  border: 1px solid orange;
+  border-radius: 50%;
+  height: 55px;
+  width: 55px;
+}
+
+
+.contact i{
+  /*text-align: center;
+  display: table-cell;
+  margin-left: auto;
+  margin-right: auto;*/
+}
 
 .mas-info{
 
@@ -120,4 +152,21 @@ body{
 
 *{
   font-family: "Roboto-Regular", "HelveticaNeue",sans-serif;
+}
+.nav a{
+  color:white;
+}
+
+/*a:link{
+  color:white;
+}*/
+
+a:active{
+  text-decoration: none;
+  color:white;
+}
+
+a:hover{
+  text-decoration: none;
+  color:#66A3A3;
 }
