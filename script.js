@@ -59,6 +59,19 @@ $(document).ready(function(){
         $('.active').slideDown(500);
     });
 
+    $('.text').hide();
+    $('img').hover(function(){
+      $(this).next('.text').show('slow');
+    },
+      function(){$(this).next('.text').hide('slow');
+    });
+
+    // $('.circle').hide();
+    // $('.fa-plus').hover(function(){
+    //   $('.circle').show('slow');
+    // },
+    //   function(){$('.circle').hide('slow');;
+    // });
 
 
 });
