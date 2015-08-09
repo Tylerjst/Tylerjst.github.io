@@ -127,6 +127,16 @@
 
 }
 
+.contact a{
+  margin:10px;
+  text-align: right;
+}
+
+.contact li{
+  list-style: none;
+  display: inline;
+}
+
 .btn{
   background-color: #006666;
   color: white;
@@ -137,12 +147,6 @@
 }
 
 
-.contact i{
-  /*text-align: center;
-  display: table-cell;
-  margin-left: auto;
-  margin-right: auto;*/
-}
 
 .mas-info{
 
