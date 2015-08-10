@@ -161,6 +161,13 @@
     height: inherit;
     display: inline-flex;
     /*border-radius: 8px;*/
+    background-color: #00E5E5;
+    transition: background-color .4s;
+}
+
+img{
+  transition: background-color .4s;
+  transition: opacity .5s;
 }
 
 img:hover{
@@ -194,6 +201,8 @@ img:hover{
   position: relative;
   top:10px;
   color: white;
+  -webkit-transition: color .4s;
+ transition: color .4s;
 }
 
 .circle{
@@ -242,6 +251,8 @@ body{
 a:active{
   text-decoration: none;
   color:white;
+  -webkit-transition: color .25s;
+ transition: color .25s
 }
 
 a:hover{
