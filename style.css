@@ -8,7 +8,7 @@
     padding-top: 10px;
 }
 .nav {
-
+  
   font-size: 15px;
 
   /*font-weight: Bold;*/
@@ -27,6 +27,12 @@
     display: inline;
     padding: 14px 10px;
     color:orange;
+}
+
+@media (max-width:350px){
+  .regular{
+    display:none;
+  }
 }
 
 .ballsy{
@@ -54,19 +60,24 @@
 
 
 .moreStuff{
-    border-bottom: 3px solid #00E5E5;
+    border-bottom: 1px solid #00E5E5;
     padding-bottom:50px;
 
 
 }
 
 .Science{
-    border-bottom:3px solid #00E5E5;
+    border-bottom:1px solid #00E5E5;
+    background-color: #00E5E5;
+    color: white;
+
 
 }
 
 .Writing{
-    border-bottom:2px solid #00E5E5;
+    border-bottom:1px solid #00E5E5;
+    background-color: #00E5E5;
+    color:white;
 
 
 }
@@ -107,7 +118,7 @@
 
     background-color:#006666;
     color:white;
-    border-top: 2px solid #00E5E5;
+    border-top: 1px solid #00E5E5;
     height:100px;
     padding: 25px;
 }
@@ -137,6 +148,10 @@
   display: inline;
 }
 
+.contact ul{
+  padding-left: 0px;
+}
+
 .btn{
   background-color: #006666;
   color: white;
@@ -150,8 +165,8 @@
 
 .mas-info{
 
-    background-image:url(http://i.imgur.com/xMxFZab.png);
-    background-size:cover;
+    /*background-image:url(http://i.imgur.com/xMxFZab.png);*/
+    background-color: #00E5E5;
 }
 
 .image{
@@ -215,7 +230,7 @@ margin-left: 132px
 }
 
 .viewMore i:hover{
-  color:#00E5E5;
+  color: #66A3A3;
    -webkit-transition: color .4s;
   transition: color .4s;
 }
@@ -226,7 +241,7 @@ margin-left: 132px
 }
 
 html{
-    background-color: #2F4F4F;
+    background-color: #66A3A3;
     width:100%;
     margin:0;
     padding:0;
@@ -242,17 +257,20 @@ body{
 }
 .nav a{
   color:white;
+  -webkit-transition: color .25s;
+  transition: color .25s
 }
 
-/*a:link{
-  color:white;
-}*/
+a{
+  -webkit-transition: color .25s;
+  transition: color .25s
+}
 
 a:active{
   text-decoration: none;
   color:white;
   -webkit-transition: color .25s;
- transition: color .25s
+  transition: color .25s
 }
 
 a:hover{
