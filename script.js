@@ -22,12 +22,16 @@ $(document).ready(function(){
         $('.active').removeClass('active');
         $('.Science').addClass('active');
         $('.active').slideDown(500);
+
+        $('.box-active').removeClass('box-active');
+        $('.box-sci').addClass('box-active');
+
         $('.subStuff1').removeClass('invisible');
         $('.subStuff2').addClass('invisible');
         $('.subStuff3').addClass('invisible');
-        $('.box-sci').css("background-color","orange");
-        $('.box-wri').css("background-color","transparent");
-        $('.box-des').css("background-color","transparent");
+        // $('.box-sci').css("background-color","orange");
+        // $('.box-wri').css("background-color","transparent");
+        // $('.box-des').css("background-color","transparent");
     });
 
     $('#wri').click(function(){
@@ -35,12 +39,16 @@ $(document).ready(function(){
         $('.active').removeClass('active');
         $('.Writing').addClass('active');
         $('.active').slideDown(500);
+
+        $('.box-active').removeClass('box-active');
+        $('.box-wri').addClass('box-active');
+
         $('.subStuff1').addClass('invisible');
         $('.subStuff2').removeClass('invisible');
         $('.subStuff3').addClass('invisible');
-        $('.box-wri').css("background-color","orange");
-        $('.box-sci').css("background-color","transparent");
-        $('.box-des').css("background-color","transparent");
+        // $('.box-wri').css("background-color","orange");
+        // $('.box-sci').css("background-color","transparent");
+        // $('.box-des').css("background-color","transparent");
     });
 
     $('#des').click(function(){
@@ -48,12 +56,17 @@ $(document).ready(function(){
         $('.active').removeClass('active');
         $('.Design').addClass('active');
         $('.active').slideDown(500);
+
+        $('.box-active').removeClass('box-active');
+        $('.box-des').addClass('box-active');
+
         $('.subStuff1').addClass('invisible');
         $('.subStuff2').addClass('invisible');
         $('.subStuff3').removeClass('invisible');
-        $('.box-des').css("background-color","orange");
-        $('.box-wri').css("background-color","transparent");
-        $('.box-sci').css("background-color","transparent");
+
+        // $('.box-des').css("background-color","orange");
+        // $('.box-wri').css("background-color","transparent");
+        // $('.box-sci').css("background-color","transparent");
     });
 
     $('.text').hide();
