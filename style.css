@@ -8,7 +8,6 @@
     padding-top: 10px;
 }
 .nav {
-  
   font-size: 15px;
 
   /*font-weight: Bold;*/
@@ -35,6 +34,18 @@
   }
 }
 
+
+
+@media (max-width:950px){
+  .subStuff{
+    display:none;
+  }
+  .box h3{
+    margin-top: 10px;
+  }
+}
+
+
 .ballsy{
     padding-bottom:50px;
 }
@@ -57,6 +68,20 @@
     /*background-position: 0px -220px;*/
     border-bottom: 3px solid  #00E5E5;
 }
+
+
+.box-wri, .box-sci, .box-des{
+  padding: 10px;
+  border-radius: 10px;
+  transition: background-color .3s;
+
+}
+
+.box-wri:hover, .box-sci:hover, .box-des:hover{
+  background-color: orange;
+  transition: background-color .3s;
+}
+
 
 
 .moreStuff{
