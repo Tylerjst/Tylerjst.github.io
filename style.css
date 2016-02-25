@@ -73,20 +73,29 @@
   font-size: 16px;
 }
 
-.box{
-  padding: 10px;
+.box-inner{
+  padding: 5px;
+  width:50%;
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
   border-radius: 10px;
   transition: background-color .3s;
 
 }
 
-.box:hover{
+
+.box-inner:hover{
   background-color: orange;
   transition: background-color .3s;
 }
 
 .box-active{
   background-color: orange;
+}
+
+.subStuff{
+  padding-top: 4px;
 }
 
 

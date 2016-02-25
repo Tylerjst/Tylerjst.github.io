@@ -24,7 +24,7 @@ $(document).ready(function(){
         $('.active').slideDown(500);
 
         $('.box-active').removeClass('box-active');
-        $('.box-sci').addClass('box-active');
+        $('.box-sci').children().addClass('box-active');
 
         $('.subStuff1').removeClass('invisible');
         $('.subStuff2').addClass('invisible');
@@ -41,7 +41,7 @@ $(document).ready(function(){
         $('.active').slideDown(500);
 
         $('.box-active').removeClass('box-active');
-        $('.box-wri').addClass('box-active');
+        $('.box-wri').children().addClass('box-active');
 
         $('.subStuff1').addClass('invisible');
         $('.subStuff2').removeClass('invisible');
@@ -58,7 +58,7 @@ $(document).ready(function(){
         $('.active').slideDown(500);
 
         $('.box-active').removeClass('box-active');
-        $('.box-des').addClass('box-active');
+        $('.box-des').children().addClass('box-active');
 
         $('.subStuff1').addClass('invisible');
         $('.subStuff2').addClass('invisible');
