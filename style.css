@@ -160,7 +160,7 @@
 .Design .inner{
   display: inline-block;
   text-align: left;
-  width:4500px;
+  width:2150px;
   /*padding: 20px;*/
   /*overflow: scroll;*/
 }
@@ -283,24 +283,20 @@ img:hover{
 }
 
 .gallery {
+  padding-top: 25px;
   padding-bottom: 25px;
-}
-.gallery img{
-  width:60%;
+  overflow: hidden;
 }
 
-.gallery ul{
-  list-style: none;
-}
-
-.three-up li{
-  margin-left: 0;
-  margin-right: 0;
-}
-
-.three-up{
+.tile{
   position: relative;
-  width:33.3%;
+  float: left;
+  width:25%;
+  overflow: hidden;
+}
+
+.tile img{
+  width: 100%;
 }
 
 .viewMore i{
