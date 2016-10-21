@@ -1,6 +1,10 @@
+hr{
+  border-width: 3px;
+  align:left;
+  margin-right: 30px;
+}
 
-
-.initial-nav{
+.poop{
     display: inline;
     padding-left: 10px;
     padding-right: 10px;
@@ -9,13 +13,21 @@
 }
 .nav {
   font-size: 16px;
-
+  background-color: transparent;
   /*font-weight: Bold;*/
-  position: relative;
-  background-color:  #00E5E5;
   /*box-shadow: 0px 1px 10px 1px #7DF9FF;*/
-
+  transition: all 0.35s;
 }
+
+.nav a:focus{
+  color:orange;
+}
+
+#mainnav.affix {
+    background-color: white;
+    border-color: rgba(34, 34, 34, 0.05);
+  }
+
 .side-nav{
   float: left;
 }
@@ -28,9 +40,6 @@
   padding-left: 0px;
 }
 
-#name{
-    color:orange;
-}
 
 
 .hovered{
@@ -78,11 +87,30 @@
     background-repeat: no-repeat;
     /*background-position: 0px -220px;*/
     border-bottom: 3px solid  #00E5E5;
+    color: #006666;
+    text-shadow: 0px 0px 0px;
+
+}
+.jumbotron-main h1{
+    text-shadow: 0px 0px 0px;
+    padding-top: 55px;
+
+}
+
+.jumbotron-main p{
+  text-shadow: 0px 0px 0px;
+}
+
+.Moreme{
+  padding-bottom: 30px;
 }
 
 .articles{
-  height:150px;
 
+  padding-top: 50px;
+  padding-bottom: 70px;
+  background-color: black;
+  color: #F1FBFD;
 }
 
 .articles i{
@@ -121,42 +149,117 @@
   padding-top: 4px;
 }
 
+.whativedone{
+  padding-top: 10px;
+  padding-bottom: 70px;
+  background-color: none;
+  color: #003333;
+
+}
+.whativedone i{
+  color: orange;
+}
 
 .moreStuff{
-    border-bottom: 1px solid #00E5E5;
     padding-bottom:50px;
+}
+
+.window i{
+  color:orange;
+  padding-top: 2px;
+}
+
+.window{
+  min-height: 300px;
+  max-height: 300px;
+  border-top: 6px solid #F1FBFD;
+  box-shadow: none;
+  transition: border-top .25s;
+  transition: box-shadow .35s;
+  transition: color .25s;
+  color: #F1FBFD;
+  z-index: 1;
+  font-family: 'Open Sans';
+}
+
+
+.window:hover{
+  min-height: 300px;
+  max-height: 300px;
+  border-top: 6px solid #F1FBFD;
+  box-shadow: 5px 5px 0px 1px #D8E1E3;
+  transition: border-top .25s;
+  transition: color .25s;
+  transition: box-shadow .35s;
+  opacity: 1;
+  color:#003333;
 
 
 }
 
-.Science{
-    border-bottom:1px solid #00E5E5;
-    background-color: #00E5E5;
-    color: white;
+.window:hover > .window-tag{
+  background: rgba(241,251,253, 1);
 
 
 }
 
-.Writing{
-    border-bottom:1px solid #00E5E5;
-    background-color: #00E5E5;
-    color:white;
-
-
-}
-
-.Design{
-    border-bottom:2px solid #00E5E5;
-    overflow-x: scroll;
-    overflow-y: hidden;
-    height: 350px;
-    width:100%;
+.window-tag{
+  background: rgba(0,51,51, .5);
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 4px;
+  transition: background .25s;
 
 }
 
-.Design .containerouter{
+.window-tag h3{
+  padding: 0px;
+  margin-top: 4px;
+}
+
+.window-1{
+  background-image: url("images/ecobanner.jpg");
+  background-size: 120%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.window-3{
+  background-image: url("images/report1.png");
+  background-size: 200%;
+  background-repeat: no-repeat;
+  background-position: center;
 
 }
+
+
+/*.window h3:hover{
+  color:orange;
+  transition: color .25s
+
+}*/
+
+.window-5 {
+  background-image: url("images/NASEC.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.window-6{
+  background-image: url("images/waterbottle.gif");
+  background-size: 130%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.window-7{
+  background-image: url("images/LEDs.JPG");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+
 .Design .inner{
   display: inline-block;
   text-align: left;
@@ -177,20 +280,26 @@
 
 }
 
+li: hover {
+
+}
 .contact{
 
-    background-color:#006666;
-    color: white;
-    border-top: 1px solid #00E5E5;
-    height:100px;
+    background-color: none;
+    color: #333;
+    height:100%;
     padding: 25px;
-    position: absolute;
+    position: relative;
     z-index: 1;
     width: 100%;
     bottom: 0;
     left:0;
+    display: block;
 
+}
 
+#contact{
+  position: absolute;
 }
 
 .contact p{
@@ -222,21 +331,45 @@
   padding-left: 0px;
 }
 
-.btn-contact{
-  background-color: #006666;
-  color: white;
-  border: 1px solid orange;
+.circle {
+  height: 10px;
+  width: 10px;
   border-radius: 50%;
-  height: 55px;
-  width: 55px;
+  background-color: white;
 }
 
+.btn-contact{
+  background-color: white;
+  border: 1px solid orange;
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  transition: background-color .25s;
+}
 
+.btn-contact:hover{
+  background-color: orange;
+  color: #006666;
+  border: 1px solid orange;
+  border-radius: 50%;
+
+  transition: background-color .25s;
+
+}
+
+.btn i{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .mas-info{
-
+    color: #15f4ee;
     /*background-image:url(http://i.imgur.com/xMxFZab.png);*/
-    background-color: #00E5E5;
+    background-color: #CCCCCC;
+    padding-bottom: 50px;
+    padding-top: 50px;
+
 }
 
 .image{
@@ -250,82 +383,8 @@
     transition: background-color .4s;
 }
 
-img{
-  transition: background-color .4s;
-  transition: opacity .5s;
-}
-
-img:hover{
-  opacity: .25;
-  background-color: #00E5E5;
-  transition: background-color .4s;
-  transition: opacity .5s;
-}
-
-.image:hover{
-  background-color: #00E5E5;
-  transition: background-color .4s;
-}
-
-.text{
-  color: white;
-  font-size: 32px;
-  text-align: center;
-  position: absolute;
-  bottom:50px;
-  left:30px;
-  opacity: 1;
-}
-
-.viewMore{
-  text-align: center;
-  float:left;
-}
-
-.gallery {
-  padding-top: 25px;
-  padding-bottom: 25px;
-  overflow: hidden;
-}
-
-.tile{
-  position: relative;
-  float: left;
-  width:25%;
-  overflow: hidden;
-}
-
-.tile img{
-  width: 100%;
-}
-
-.viewMore i{
-  position: relative;
-  top:10px;
-  color: white;
-  -webkit-transition: color .4s;
- transition: color .4s;
-}
-
-.circle{
-  width: 50px;
-height: 50px;
-border-radius: 50%;
-border: 2px solid white;
-margin-top: 155px;
-margin-left: 132px
-}
-
-.viewMore i:hover{
-  color: #66A3A3;
-   -webkit-transition: color .4s;
-  transition: color .4s;
-}
 
 
-.invisbile{
-    visibility:hidden;
-}
 
 html{
     background-color: white;
@@ -337,7 +396,6 @@ html{
 }
 body{
 
-    padding-bottom:100px;
     min-height: 100%;
     position: relative;
     margin: 0;
@@ -353,20 +411,17 @@ body{
 }
 
 a{
-  -webkit-transition: color .25s;
-  transition: color .25s
+  color:white;
 }
 
 a:active{
   text-decoration: none;
-  color:white;
-  -webkit-transition: color .25s;
+  color: white;
   transition: color .25s
 }
 
 a:hover{
   text-decoration: none;
-  color: #66A3A3;
-   -webkit-transition: color .25s;
+  color: orange;
   transition: color .25s
 }
