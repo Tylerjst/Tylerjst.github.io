@@ -1,25 +1,20 @@
 $(document).ready(function(){
-  $('.subStuff1').addClass('invisible');
-  $('.subStuff2').addClass('invisible');
-  $('.subStuff3').addClass('invisible');
-
-    $('li').hover(function(){
-        $(this).css('color','#7DF9FF');
-        },
-        function(){
-            $(this).css('color','white');
-        });
+  
 
 
-//        $(window).scroll(function(){
-//                if($(window).scrollTop() > $(window).height()){
-//                    $(".nav").css({"background-color":"transparent"});
-//                }
-//                else{
-//                    $(".nav").css({"background-color":"white"});
-//                }
-//
-//            });
+   var scroll_start = 0;
+   var startchange = $('.Moreme');
+   var offset = startchange.offset();
+   $(document).scroll(function(){ 
+      scroll_start = $(this).scrollTop();
+      if(scroll_start > offset.top) {
+          $('.nav').css('background-color', 'rgba(255,255,255,1)').css('transition-duration','.25s');
+          $('.poop').css('color','#333').css('transition-duration','.25s');
+       } else {
+          $('.nav').css('background-color', 'transparent').css('transition-duration','.25s');
+           $('.poop').css('color','rgba(255,255,255,1)').css('transition-duration','.25s');
+       }
+   });
             $('#fun').hide();
 
 
