@@ -219,9 +219,9 @@ hr{
 
 .window-1{
   background-image: url("images/ecobanner.jpg");
-  background-size: 120%;
+  background-size: 130%;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: bottom;
 }
 
 .window-3{
@@ -246,13 +246,13 @@ hr{
   background-position: center;
 }
 
-.window-6{
+.window-5{
   background-image: url("images/waterbottle.gif");
   background-size: 130%;
   background-repeat: no-repeat;
   background-position: center;
 }
-.window-7{
+.window-2{
   background-image: url("images/LEDs.JPG");
   background-size: 100%;
   background-repeat: no-repeat;
@@ -335,7 +335,7 @@ li: hover {
   height: 10px;
   width: 10px;
   border-radius: 50%;
-  background-color: white;
+  
 }
 
 .btn-contact{
@@ -424,4 +424,17 @@ a:hover{
   text-decoration: none;
   color: orange;
   transition: color .25s
+}
+
+.toggle {
+    
+}
+
+.circle-work {
+    background-color: white;
+  border: 1px solid white;
+}
+
+.circle-fun {
+  border: 1px solid white;
 }
