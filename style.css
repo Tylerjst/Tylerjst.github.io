@@ -1,7 +1,6 @@
 hr{
   border-width: 3px;
   align:left;
-  margin-right: 30px;
 }
 
 .poop{
@@ -16,6 +15,16 @@ hr{
   transition: all 0.35s;
     padding-left: 10px;
     padding-right: 10px;
+    
+}
+
+.nav li{
+    color: white;
+}
+
+.navbar-border{
+        border-bottom: 1px solid orange;
+
 }
 
 .nav a:focus{
@@ -47,49 +56,36 @@ hr{
     color:orange;
 }
 
-@media (max-width:350px){
-  .regular{
-    display:none;
-  }
-}
 
 
-
-@media (max-width:950px){
-  .subStuff{
-    display:none;
-  }
-  .box h3{
-    margin-top: 10px;
-  }
-}
 
 
 .ballsy{
     padding-bottom:50px;
 }
 
-/*.jumbotron{
-    background-color:white;
-    height:430px;
-    background-image:url(http://i.imgur.com/kiqKU5z.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 0px -80px;
-    border-bottom: 3px solid  #00E5E5;
-}*/
+@media(min-width:768px){
+    jumbotron{
+        height:100%;
+    }
+}
+
+
+
 
 .jumbotron-main{
-    height:500px;
+    min-height: auto;
+    width: 100%;
     background-image:url(images/solar-3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    /*background-position: 0px -220px;*/
-    border-bottom: 3px solid  #00E5E5;
     color: #006666;
     text-shadow: 0px 0px 0px;
+    position: relative;
+    display: table;
 
 }
+
 .jumbotron-main h1{
     text-shadow: 0px 0px 0px;
     padding-top: 55px;
@@ -106,7 +102,7 @@ hr{
 
 .articles{
 
-  padding-top: 50px;
+  padding-top: 30px;
   padding-bottom: 70px;
   background-color: black;
   color: #F1FBFD;
@@ -149,8 +145,9 @@ hr{
 }
 
 .whativedone{
-  padding-top: 10px;
-  padding-bottom: 70px;
+  padding-top: 30px;
+    padding-bottom: 30px;
+  margin-bottom: 50px;
   background-color: none;
   color: #003333;
 
@@ -169,8 +166,8 @@ hr{
 }
 
 .window{
-  min-height: 300px;
-  max-height: 300px;
+  min-height: 250px;
+  max-height: 250px;
   border-top: 6px solid #F1FBFD;
   box-shadow: none;
   transition: border-top .25s;
@@ -179,12 +176,13 @@ hr{
   color: #F1FBFD;
   z-index: 1;
   font-family: 'Open Sans';
+    padding-bottom: 10px;
 }
 
 
 .window:hover{
-  min-height: 300px;
-  max-height: 300px;
+  min-height: 250px;
+  max-height: 250px;
   border-top: 6px solid #F1FBFD;
   box-shadow: 5px 5px 0px 1px #D8E1E3;
   transition: border-top .25s;
@@ -259,13 +257,7 @@ hr{
 }
 
 
-.Design .inner{
-  display: inline-block;
-  text-align: left;
-  width:2150px;
-  /*padding: 20px;*/
-  /*overflow: scroll;*/
-}
+
 
 .Design img{
   /*padding: 10px;*/
@@ -309,16 +301,13 @@ li: hover {
   font-size: 24px;
 }
 .inner{
-  display: inline-block;
-  vertical-align: middle;
-  text-align: center;
-  white-space: nowrap;
-
+     display: table-cell;
+    vertical-align: middle;
+    text-align: center;
 }
 
 .contact a{
   margin:10px;
-  text-align: right;
 }
 
 .contact li{
@@ -334,6 +323,7 @@ li: hover {
   height: 10px;
   width: 10px;
   border-radius: 50%;
+    
   
 }
 
@@ -344,6 +334,7 @@ li: hover {
   height: 35px;
   width: 35px;
   transition: background-color .25s;
+    
 }
 
 .btn-contact:hover{
@@ -351,23 +342,21 @@ li: hover {
   color: #006666;
   border: 1px solid orange;
   border-radius: 50%;
-
+    position: relative;
   transition: background-color .25s;
 
 }
 
-.btn i{
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-}
+
 
 .mas-info{
-    color: #15f4ee;
+    color: White;
     /*background-image:url(http://i.imgur.com/xMxFZab.png);*/
     background-color: #CCCCCC;
-    padding-bottom: 50px;
-    padding-top: 50px;
+    padding-bottom: 80px;
+    padding-top: 30px;
+    
+    
 
 }
 
@@ -434,4 +423,20 @@ a:hover{
 
 .circle-fun {
   border: 1px solid white;
+}
+
+.contact i {
+}
+
+.box {
+    display: table;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.article-info {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
