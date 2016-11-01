@@ -1,25 +1,68 @@
+/*   General   */
+
+
+
+html{
+    background-color: white;
+    width:100%;
+    height:100%;
+    margin:0;
+    padding:0;
+
+}
+body{
+
+    min-height: 100%;
+    position: relative;
+    margin: 0;
+}
+
+*{
+  font-family: "HelveticaNeue", Helvetica, sans-serif;
+}
+
+a {
+  color:inherit;
+    text-decoration: none;
+  transition: color .25s;
+}
+
+a:hover{
+  text-decoration: none;
+  color: orange;
+  transition: color .25s;
+}
+
+
+
 hr{
   border-width: 3px;
   align:left;
 }
 
+
+
+
+
+
+
+/* Navbar Stuff */
 .poop{
     display: inline;
     color:#333;
 }
 .nav {
-  font-size: 16px;
   background-color: transparent;
   /*font-weight: Bold;*/
   /*box-shadow: 0px 1px 10px 1px #7DF9FF;*/
   transition: all 0.35s;
-    padding-left: 10px;
-    padding-right: 10px;
-    
+
+
 }
 
 .nav li{
     color: white;
+    font-size: 16px;
 }
 
 .navbar-border{
@@ -50,21 +93,12 @@ hr{
 
 
 
-.hovered{
-    display: inline;
-    padding: 14px 10px;
-    color:orange;
-}
 
 
 
+/* Main Image/Jumbotron */
 
-
-.ballsy{
-    padding-bottom:50px;
-}
-
-@media(min-width:768px){
+@media only screen and (min-width:768px){
     jumbotron{
         height:100%;
     }
@@ -96,23 +130,60 @@ hr{
   text-shadow: 0px 0px 0px;
 }
 
+
+
+
+
+
+
+/* About Me */
+
+
 .Moreme{
   padding-bottom: 30px;
 }
 
-.articles{
 
+.whativedone{
   padding-top: 30px;
-  padding-bottom: 70px;
-  background-color: black;
-  color: #F1FBFD;
+    padding-bottom: 30px;
+  margin-bottom: 50px;
+  background-color: none;
+  color: #003333;
+
+}
+.whativedone i{
+  color: orange;
 }
 
-.articles i{
-  display: inline-block;
-  /*margin-left: auto;
-  margin-right: auto;*/
+
+.whativedone a{
+ color:white;
+  text-decoration: none;
+  transition: color .25s;
 }
+
+
+
+
+
+
+
+/*    Portfolio   */
+
+
+
+.mas-info{
+    color: White;
+    /*background-image:url(http://i.imgur.com/xMxFZab.png);*/
+    background-color: #CCCCCC;
+    padding-bottom: 80px;
+    padding-top: 30px;
+
+
+
+}
+
 
 .mas-info p{
   font-size: 16px;
@@ -131,34 +202,13 @@ hr{
 }
 
 
-.box-inner:hover{
-  background-color: orange;
-  transition: background-color .3s;
-}
 
-.box-active{
-  background-color: orange;
-}
 
-.subStuff{
-  padding-top: 4px;
-}
 
-.whativedone{
-  padding-top: 30px;
-    padding-bottom: 30px;
-  margin-bottom: 50px;
-  background-color: none;
-  color: #003333;
 
-}
-.whativedone i{
-  color: orange;
-}
 
-.moreStuff{
-    padding-bottom:50px;
-}
+    /*   Portfolio Windows  */
+
 
 .window i{
   color:orange;
@@ -259,21 +309,42 @@ hr{
 
 
 
-.Design img{
-  /*padding: 10px;*/
-  height:330px;
-  margin: 10px;
 
+
+
+/*    Articles     */
+
+
+
+
+.articles{
+
+  padding-top: 30px;
+  padding-bottom: 70px;
+  background-color: black;
+  color: #F1FBFD;
+}
+
+.articles i{
+  display: inline-block;
+  /*margin-left: auto;
+  margin-right: auto;*/
+}
+
+.article-info {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 
-.active{
 
-}
 
-li: hover {
 
-}
+
+/*    Contact    */
+
+
+
 .contact{
 
     background-color: none;
@@ -319,13 +390,6 @@ li: hover {
   padding-left: 0px;
 }
 
-.circle {
-  height: 10px;
-  width: 10px;
-  border-radius: 50%;
-    
-  
-}
 
 .btn-contact{
   background-color: white;
@@ -334,7 +398,7 @@ li: hover {
   height: 35px;
   width: 35px;
   transition: background-color .25s;
-    
+
 }
 
 .btn-contact:hover{
@@ -349,85 +413,6 @@ li: hover {
 
 
 
-.mas-info{
-    color: White;
-    /*background-image:url(http://i.imgur.com/xMxFZab.png);*/
-    background-color: #CCCCCC;
-    padding-bottom: 80px;
-    padding-top: 30px;
-    
-    
-
-}
-
-.image{
-    position:relative;
-    float: left;
-    background-color:transparent;
-    height: inherit;
-    display: inline-flex;
-    /*border-radius: 8px;*/
-    background-color: #00E5E5;
-    transition: background-color .4s;
-}
-
-
-
-
-html{
-    background-color: white;
-    width:100%;
-    height:100%;
-    margin:0;
-    padding:0;
-
-}
-body{
-
-    min-height: 100%;
-    position: relative;
-    margin: 0;
-}
-
-*{
-  font-family: "Roboto-Regular", "HelveticaNeue",sans-serif;
-}
-
-a {
-  color:inherit;
-    text-decoration: none;
-  transition: color .25s;
-}
-
-
-.whativedone a{
- color:white;
-  text-decoration: none;
-  transition: color .25s;
-}
-
-a:hover{
-  text-decoration: none;
-  color: orange;
-  transition: color .25s;
-}
-
-.toggle {
-    
-}
-
-.circle-work {
-    background-color: white;
-  border: 1px solid white;
-}
-
-.circle-fun {
-  border: 1px solid white;
-}
-
-.contact i {
-}
-
 .box {
     display: table;
     vertical-align: middle;
@@ -436,7 +421,16 @@ a:hover{
 
 }
 
-.article-info {
-    padding-top: 30px;
-    padding-bottom: 30px;
+
+
+
+
+
+
+
+
+
+
+#portfolio-btn {
+    margin-top: 25px
 }

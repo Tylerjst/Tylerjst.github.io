@@ -18,7 +18,30 @@ $(document).ready(function(){
            
        }
    });
-            $('#fun').hide();
+    $('.fun').hide();
+    $('#fun').hide();
+   
+    $('.fun-btn').click(function(){
+        $('#work').hide();
+        $('#fun').show();
+        $('.work').hide('fast');
+        $('.fun').show('fast');
+        
+    
+    
+    
+    });
+    
+     $('.work-btn').click(function(){
+         $('#fun').hide();
+        $('#work').show();
+         $('.fun').hide('fast');
+         $('.work').show('fast');
+          
+    });
+    
+    
+    
 
 
 
