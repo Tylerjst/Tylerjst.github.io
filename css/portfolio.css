@@ -4,6 +4,17 @@ body {
 
 .portfolio-item {
     margin-bottom: 25px;
+    display: block;
+    width: auto;
+    max-height: 300px;
+    
+}
+
+.portfolio-item-big {
+    display: block;
+    width: auto;
+    max-height: 750px;
+    
 }
 
 footer {
@@ -16,6 +27,11 @@ footer {
   background-color: white;
   border-bottom: 2px solid orange;
   color: black;
+}
+
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover{
+    
+    background-color: orange;
 }
 
 a{
@@ -31,6 +47,7 @@ a:hover{
 img{
     border-top: 6px solid #F1FBFD;
 }
+
 
 button{
   background-color: black;
