@@ -2,18 +2,31 @@ body {
     padding-top: 40px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
-.portfolio-item {
-    margin-bottom: 25px;
-    display: block;
-    width: auto;
-    max-height: 300px;
+.no-gutter{
     
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.portfolio-item {
+    display: block;
+    max-height: 650px;
+    position:relative;
+    height: auto;
+    
+    
+}
+
+
+.portfolio-item img{
+    opacity: 1;
 }
 
 .portfolio-item-big {
     display: block;
     width: auto;
     max-height: 750px;
+    height: auto;
     
 }
 
@@ -55,4 +68,13 @@ button{
 
 .icon-bar{
   color: black;
+}
+
+.morepics {
+    padding-top:50px;
+    padding-bottom: 20px;
+}
+
+.caption {
+    background: rgba(0,51,51, .5);
 }
