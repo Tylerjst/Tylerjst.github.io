@@ -2,31 +2,27 @@ body {
     padding-top: 40px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
-.no-gutter{
-    
-    padding-left: 0px;
-    padding-right: 0px;
-}
-
 .portfolio-item {
     display: block;
-    max-height: 650px;
+    max-height: 50%;
     position:relative;
+    max-width: inherit;
     height: auto;
-    
-    
+    width: auto;
+    border-top: 6px solid #F1FBFD;
+    padding-bottom: 10px;
 }
 
 
-.portfolio-item img{
-    opacity: 1;
-}
+
 
 .portfolio-item-big {
     display: block;
     width: auto;
     max-height: 750px;
     height: auto;
+        border-top: 6px solid #F1FBFD;
+
     
 }
 
@@ -57,9 +53,7 @@ a:hover{
   transition: color .25s;
 }
 
-img{
-    border-top: 6px solid #F1FBFD;
-}
+
 
 
 button{
@@ -75,6 +69,139 @@ button{
     padding-bottom: 20px;
 }
 
-.caption {
-    background: rgba(0,51,51, .5);
+
+
+.portfolio-pic {
+    width: 100%;
+    min-height: 250px;
+    position: relative;
+    
+}
+
+.portfolio-pic-ECO-1 {
+    height: 100%;
+    position:relative;
+    background-image:   url(images/ClimateWeekFINAL.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio-pic-ECO-2 {
+    height: 100%;
+    position:relative;
+    background-image:   url(images/LeoOscarMeme2.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.portfolio-pic-ECO-3 {
+    height: 100%;
+    position:relative;
+    background-image:   url(images/ECOpeeps.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio-pic-LED-1 {
+    height: 100%;
+    position:relative;
+    background-image:   url(images/LEDpresentation.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio-pic-LED-2 {
+    height: 100%;
+    position:relative;
+    background-image:   ;
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio-pic-report-1 {
+    height: 100%;
+    position:relative;
+    background-image:   url(images/report2.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio-pic-report-2 {
+    position:relative;
+    background-image:   url(images/report3.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio-pic-report-3 {
+    height: 100%;
+    position:relative;
+    background-image:   url(images/report4.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio-pic-report-4 {
+     height: 100%;
+    position:relative;
+    background-image:   url(images/report5.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio-pic-info-1 {
+    height: 100%;
+    position:relative;
+    background-image:   url(images/paper.gif);
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio-pic-info-2 {
+    height: 100%;
+    position:relative;
+    background-image:   url(images/sustainable-front.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio-pic-info-3 {
+    height: 100%;
+    position:relative;
+    background-image:   url(images/waterbottle.gif);
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio-pic-info-4 {
+    height: 100%;
+    position:relative;
+    background-image:   url(images/LED.gif);
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio-pic-report-5 {
+     height: 100%;
+    position:relative;
+    background-image:   url(images/report6.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio-pic-report-6 {
+     height: 100%;
+    position:relative;
+    background-image:   url(images/report7.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio-pic-LED-3 {
+    height: 100%;
+    position:relative;
+    background-image:   ;
+    background-size: cover;
+    background-position: center;
 }
