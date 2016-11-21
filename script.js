@@ -10,11 +10,15 @@ $(document).ready(function(){
       if(scroll_start > offset.top) {
           $('.nav').css('background-color', 'rgba(255,255,255,1)').css('transition-duration','.25s');
           $('.poop').css('color','#333').css('transition-duration','.25s');
+          $('.navbar-brand').css('color','black').css('transition-duration','.25s');
           $('.navbar').css('border-bottom', '2px solid orange').css('transition-duration','.25s');
+          $('.icon-bar').css('background-color', 'black').css('transition-duration','.25s');
        } else {
           $('.nav').css('background-color', 'transparent').css('transition-duration','.25s');
            $('.poop').css('color','rgba(255,255,255,1)').css('transition-duration','.25s');
+           $('.navbar-brand').css('color','rgba(255,255,255,1)').css('transition-duration','.25s');
            $('.navbar').css('border-bottom', 'none').css('transition-duration','.25s');
+           $('.icon-bar').css('background-color', 'white').css('transition-duration','.25s');
            
        }
    });

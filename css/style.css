@@ -65,6 +65,10 @@ hr{
     font-size: 16px;
 }
 
+.icon-bar{
+    background-color:white;
+}
+
 .navbar-border{
         border-bottom: 1px solid orange;
 
@@ -85,7 +89,7 @@ hr{
 
 .side-nav li{
   list-style: none;
-  color:black;
+  color:white;
 }
 .side-nav ul{
   padding-left: 0px;
@@ -354,14 +358,10 @@ hr{
     position: relative;
     z-index: 1;
     width: 100%;
-    bottom: 0;
-    left:0;
-    display: block;
 
 }
 
 #contact{
-  position: absolute;
 }
 
 .contact p{
@@ -372,9 +372,10 @@ hr{
   font-size: 24px;
 }
 .inner{
-     display: table-cell;
-    vertical-align: middle;
+    position: relative;
+    display: inline-block;
     text-align: center;
+    
 }
 
 .contact a{
@@ -383,7 +384,7 @@ hr{
 
 .contact li{
   list-style: none;
-  display: inline;
+  display: inline-block;
 }
 
 .contact ul{
@@ -392,32 +393,32 @@ hr{
 
 
 .btn-contact{
-  background-color: white;
-  border: 1px solid orange;
-  border-radius: 50%;
-  height: 35px;
-  width: 35px;
-  transition: background-color .25s;
+    width: 50px;
+    height: 50px;
+ border-radius: 100%;
+text-align: center;
+line-height: 60px;
+  transition: background-color .5s;
+    display: inline-block;
+    text-align: center;
+ 
 
 }
 
 .btn-contact:hover{
   background-color: orange;
   color: #006666;
-  border: 1px solid orange;
-  border-radius: 50%;
-    position: relative;
   transition: background-color .25s;
+    text-align: center;
 
 }
 
 
 
 .box {
-    display: table;
+    display: inline-block;
+    text-align: center;
     vertical-align: middle;
-    margin-left: auto;
-    margin-right: auto;
 
 }
 
@@ -433,4 +434,16 @@ hr{
 
 #portfolio-btn {
     margin-top: 25px
+}
+
+.outer {
+    display: inline-block;
+}
+
+.box > i {
+    position: relative;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
