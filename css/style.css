@@ -221,7 +221,6 @@ hr{
 
 .window{
   min-height: 250px;
-  max-height: 250px;
   border-top: 6px solid #F1FBFD;
   box-shadow: none;
   transition: border-top .25s;
@@ -230,13 +229,11 @@ hr{
   color: #F1FBFD;
   z-index: 1;
   font-family: 'Open Sans';
-    padding-bottom: 10px;
 }
 
 
 .window:hover{
   min-height: 250px;
-  max-height: 250px;
   border-top: 6px solid #F1FBFD;
   box-shadow: 5px 5px 0px 1px #D8E1E3;
   transition: border-top .25s;
@@ -433,7 +430,11 @@ line-height: 60px;
 
 
 #portfolio-btn {
-    margin-top: 25px
+    margin-top: 8px;
+    background-color: transparent;
+  color: #006666;
+    border: none;
+  transition: background-color .25s;
 }
 
 .outer {
@@ -446,4 +447,37 @@ line-height: 60px;
     margin-left: auto;
     margin-right: auto;
     
+}
+
+#portfolio-btn:hover {
+    background-color: orange;
+  color: #006666;
+  transition: background-color .25s;
+}
+
+.window-tag-fun {
+    visibility: hidden;
+    transition-duration: visibility .25s;
+}
+
+.window-tag-fun: hover {
+    visibility: visible;
+    transition-duration: visibility .25s;
+}
+
+.window:hover> .window-tag-fun {
+   visibility: visible;
+  transition-duration: visibility .25s;
+}
+
+.window-6 {
+    background-image: url();
+    
+}
+
+.window-7 {
+    background-image: url(images/NASEC.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
 }

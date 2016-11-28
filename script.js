@@ -30,6 +30,7 @@ $(document).ready(function(){
         $('#fun').show();
         $('.work').hide('fast');
         $('.fun').show('fast');
+        $('.mas-info').css('background-color', 'rgba(0,51,102,1)').css('transition-duration','.25s');
         
     
     
@@ -41,6 +42,7 @@ $(document).ready(function(){
         $('#work').show();
          $('.fun').hide('fast');
          $('.work').show('fast');
+         $('.mas-info').css('background-color', 'rgba(204,204,204,1)').css('transition-duration','.25s');
           
     });
     
