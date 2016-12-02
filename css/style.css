@@ -184,8 +184,6 @@ hr{
     padding-bottom: 80px;
     padding-top: 30px;
 
-
-
 }
 
 
@@ -273,7 +271,7 @@ hr{
 }
 
 .window-3{
-  background-image: url("images/report1.png");
+  background-image: url("images/reportmain.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -419,7 +417,7 @@ line-height: 60px;
 
 
 #portfolio-btn {
-    margin-top: 8px;
+    margin-top: 4px;
     background-color: transparent;
   color: #006666;
     border: none;
@@ -439,7 +437,7 @@ line-height: 60px;
 }
 
 #portfolio-btn:hover {
-    background-color: orange;
+    background-color: transparent;
   color: #006666;
   transition: background-color .25s;
 }
@@ -468,7 +466,7 @@ line-height: 60px;
 }
 
 .window-7 {
-    background-image: url();
+    background-image: url("/css/images/storieshousehome.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -482,3 +480,84 @@ line-height: 60px;
     background-position: center;
 
 }
+
+/* Fun Mode Button */
+
+[class*="BT"] {
+  width: 220px;
+  display: block;
+  position: relative;
+  padding: 0;
+  
+  height: 30px;
+}
+
+
+[class*="BT"] hover {
+  position: absolute;
+  z-index: 5;
+  width: 246px;
+  margin-left: -370px;
+  transition: all 0.3s ease-out 0s;
+  background: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0) 0%, rgba(135, 135, 135, 0.38) 50%, rgba(255, 255, 255, 0) 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(50%, rgba(135, 135, 135, 0.38)), color-stop(100%, rgba(255, 255, 255, 0)));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0) 0%, rgba(135, 135, 135, 0.38) 50%, rgba(255, 255, 255, 0) 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(45deg, rgba(255, 255, 255, 0) 0%, rgba(135, 135, 135, 0.38) 50%, rgba(255, 255, 255, 0) 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(45deg, rgba(255, 255, 255, 0) 0%, rgba(135, 135, 135, 0.38) 50%, rgba(255, 255, 255, 0) 100%);
+  /* IE10+ */
+  background: linear-gradient(45deg, rgba(255, 255, 255, 0) 0%, rgba(135, 135, 135, 0.38) 50%, rgba(255, 255, 255, 0) 100%);
+  /* W3C */
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#00ffffff', GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+  height: 60px;
+  margin-top: -30px;
+}
+
+[class*="OH"] {
+  overflow: hidden;
+}
+
+[class*="BR"] {
+}
+
+[class*="R6"] {
+  border-radius: 6px;
+}
+
+[class*="NF"] {
+  background: transparent;
+}
+
+[class*="BT"]:hover hover {
+  margin-left: 123px;
+}
+
+[class*="TU"] {
+  text-transform: uppercase;
+}
+
+[class*="PT"] {
+  cursor: pointer;
+}
+
+[class*="BT"] span {
+  position: absolute;
+  width: 200px;
+  margin-left: -100px;
+  z-index: 3;
+    color:white;
+}
+
+canvas {
+  margin: 0;
+  padding: 0;
+  display: block;
+  position: absolute;
+  margin-top: -30px;
+}
+
+

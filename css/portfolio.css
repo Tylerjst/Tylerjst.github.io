@@ -73,7 +73,7 @@ button{
 
 .portfolio-pic {
     width: 100%;
-    min-height: 250px;
+    min-height: 300px;
     position: relative;
     
 }
@@ -209,5 +209,6 @@ button{
 .outer {
     
 }
+
 
 
