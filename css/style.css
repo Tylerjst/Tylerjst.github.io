@@ -23,7 +23,7 @@ body{
 
 a {
   color:inherit;
-    text-decoration: none;
+ text-decoration: none;
   transition: color .25s;
 }
 
@@ -220,7 +220,8 @@ hr{
   border-top: 6px solid #F1FBFD;
   box-shadow: none;
   transition: border-top .25s;
-  transition: box-shadow .35s;
+  transition: box-shadow .55s;
+transition-delay: box-shadow .25s;
   transition: color .25s;
   color: #F1FBFD;
   z-index: 1;
@@ -234,8 +235,8 @@ hr{
   box-shadow: 5px 5px 0px 1px #D8E1E3;
   transition: border-top .25s;
   transition: color .25s;
-  transition: box-shadow .35s;
-  opacity: 1;
+  transition: box-shadow .55s;
+    transition-delay: box-shadow .25s;
   color:#003333;
 
 
@@ -243,7 +244,7 @@ hr{
 
 .window:hover > .window-tag{
   background: rgba(241,251,253, 1);
-
+    
 
 }
 
@@ -460,6 +461,8 @@ line-height: 60px;
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
+    transition: background .25s;
+    
     
 }
 
@@ -560,3 +563,27 @@ background-color: transparent;
 }
 
 
+
+
+
+
+
+.window-9 {
+    background-image: url("/css/images/EBI2015.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.jumbotron-main-fun {
+    min-height: auto;
+    width: 100%;
+    background-image:url(images/dino2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    color: #006666;
+    text-shadow: 0px 0px 0px;
+    position: relative;
+    display: table;
+}

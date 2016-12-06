@@ -65,7 +65,7 @@ button{
 }
 
 .morepics {
-    padding-top:50px;
+    padding-top:80px;
     padding-bottom: 20px;
 }
 
@@ -98,7 +98,7 @@ button{
 .portfolio-pic-ECO-3 {
     height: 100%;
     position:relative;
-    background-image:   url(images/ECOpeeps.jpg);
+    background-image:   url(images/ecologo.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -106,7 +106,7 @@ button{
 .portfolio-pic-LED-1 {
     height: 100%;
     position:relative;
-    background-image:   url(images/LEDpresentation.png);
+    background-image:   url(images/grant.png);
     background-size: cover;
     background-position: center;
 }
@@ -153,7 +153,7 @@ button{
 .portfolio-pic-info-1 {
     height: 100%;
     position:relative;
-    background-image:   url(images/paper.gif);
+    background-image:   url(images/sustainable-front.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -161,7 +161,7 @@ button{
 .portfolio-pic-info-2 {
     height: 100%;
     position:relative;
-    background-image:   url(images/sustainable-front.jpg);
+    background-image:   url(images/sustainable-back.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -212,3 +212,119 @@ button{
 
 
 
+
+.portfolio-pic-design-1 {
+  
+    height: 100%;
+    position:relative;
+    background-image:   url(../css/images/EBI2015.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio-pic-design-2 {
+    height: 100%;
+    position:relative;
+    background-image:   url(../css/images/eesBlueprintFINAL.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.portfolio-pic-design-3 {
+    height: 100%;
+    position:relative;
+    background-image:   url(../css/images/watch.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio-pic-design-4 {
+    height: 100%;
+    position:relative;
+    background-image:   url(../css/images/LogoInLights.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio-pic-design-5 {
+    height: 100%;
+    position:relative;
+    background-image:   url(../css/images/FYEstarbanner.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio-pic-design-6 {
+    height: 100%;
+    position:relative;
+    background-image:   url(../css/images/HousingAssignmentsBanner.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio-pic-info-5 {
+    height: 100%;
+    position:relative;
+    background-image:   url(images/paper.gif);
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio-pic-info-6 {
+    height: 100%;
+    position:relative;
+    background-image:   url(images/cleaning.gif);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+
+.portfolio-pic-NASEC-1 {
+    position:relative;
+    background-image: url(images/NASEC2.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio-pic-NASEC-2 {
+    position:relative;
+    background-image:   url(images/NASEC5.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio-pic-NASEC-3 {
+    position:relative;
+    background-image:   url(images/NASEC4.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio-link {
+    color: orange;
+}
+
+.portfolio-link:hover {
+    text-decoration: none;
+    color:teal;
+}
+
+.portfolio-pic-ECO-4 {
+    height: 100%;
+    position:relative;
+    background-image:   url(images/ecopeeps.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio-pic-ECO-5 {
+    height: 100%;
+    position:relative;
+    background-image:   url(images/ecoart.JPG);
+    background-size: cover;
+    background-position: center;
+}
