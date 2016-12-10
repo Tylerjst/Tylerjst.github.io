@@ -75,6 +75,8 @@ button{
     width: 100%;
     min-height: 300px;
     position: relative;
+    transition: color .25s;
+  color: black;
     
 }
 
@@ -327,4 +329,66 @@ button{
     background-image:   url(images/ecoart.JPG);
     background-size: cover;
     background-position: center;
+}
+
+.portfolio-pic-writing-4 {
+     height: 100%;
+    position:relative;
+    background-image:   url(images/starwars.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 300px;
+}
+
+.window-tag {
+     background: rgba(256,256,256, 1);
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 4px;
+  transition: background .25s;
+    position:absolute;
+/*  bottom: 0;*/
+    border-top: 3px black solid;
+
+}
+
+.portfolio-pic:hover > .window-tag{
+  background: rgba(241,251,253, .5);
+
+
+}
+
+.portfolio-text {
+/*    color:#F1FBFD;*/
+    padding: 4px;
+    border-bottom: 3px black solid;
+    border-top: 1px black solid;
+    background: rgba(256,256,256, 1);
+}
+
+.window-tag h3 {
+    margin-top: 4px;
+}
+
+
+
+.portfolio-pic-writing-5 {
+    height: 100%;
+    position:relative;
+    background-image:   url(images/toilet.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 300px;
+}
+
+.portfolio-pic-writing-6 {
+     height: 100%;
+    position:relative;
+    background-image:   url(images/Benedict.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 300px;
 }

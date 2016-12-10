@@ -3,6 +3,10 @@
 
 <head>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+<script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+
+
 	<link rel='stylesheet' type = 'text/css' href='css/style.css'/>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -26,24 +30,26 @@
                 </div>
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class ="nav navbar-nav">
-                    <li><div class = "btn btn-default btn-xl fun-btn work " id = "portfolio-btn" align= "center">
+                    <li>
+                        <div class="checkbox work fun-btn">
+                          <label>
+                            <input type="checkbox" data-toggle="toggle">
+                            Push for Fun Mode
+                          </label>
+                        </div>
+
                         
-                        <button id = "button" class = "BT-OH-BR-R6-NF-FH-FP-TU-PT">
-                        <canvas id="canvas">
-                        <hover></hover>
-                        <span>Push for Fun Mode</span>
-                        </canvas> 
-                        </button>
+                   
                         
-                            </div></li>
+                         </li>
                         
-                    <li><div class = "btn btn-default btn-xl work-btn fun"  id ="portfolio-btn" align= "center">
-                        <canvas id="canvas">
-                        <hover></hover>
-                        <span></span>
-                        </canvas> 
-                        
-                        Push for Work mode</div></li>
+                    <li><div class="checkbox fun work-btn">
+                          <label>
+                            <input type="checkbox" data-toggle="toggle">
+                            Push for Work Mode
+                          </label>
+                        </div>
+</li>
                     
                         
                         

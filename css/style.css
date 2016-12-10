@@ -74,6 +74,10 @@ hr{
 
 }
 
+.navbar-brand{
+    color:white;
+}
+
 .nav a:focus{
   color:orange;
 }
@@ -126,7 +130,7 @@ hr{
 
 .jumbotron-main h1{
     text-shadow: 0px 0px 0px;
-    padding-top: 55px;
+    
 
 }
 
@@ -336,7 +340,6 @@ transition-delay: box-shadow .25s;
 
     background-color: none;
     color: #333;
-    height:100%;
     padding: 25px;
     position: relative;
     z-index: 1;
@@ -482,85 +485,6 @@ line-height: 60px;
 
 }
 
-/* Fun Mode Button */
-
-[class*="BT"] {
-  width: 220px;
-  display: block;
-  position: relative;
-  padding: 0;
-  
-  height: 30px;
-}
-
-
-[class*="BT"] hover {
-  position: absolute;
-  z-index: 5;
-  width: 246px;
-  margin-left: -370px;
-  transition: all 0.3s ease-out 0s;
-  background: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0) 0%, rgba(135, 135, 135, 0.38) 50%, rgba(255, 255, 255, 0) 100%);
-  /* FF3.6+ */
-  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(50%, rgba(135, 135, 135, 0.38)), color-stop(100%, rgba(255, 255, 255, 0)));
-  /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0) 0%, rgba(135, 135, 135, 0.38) 50%, rgba(255, 255, 255, 0) 100%);
-  /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(45deg, rgba(255, 255, 255, 0) 0%, rgba(135, 135, 135, 0.38) 50%, rgba(255, 255, 255, 0) 100%);
-  /* Opera 11.10+ */
-  background: -ms-linear-gradient(45deg, rgba(255, 255, 255, 0) 0%, rgba(135, 135, 135, 0.38) 50%, rgba(255, 255, 255, 0) 100%);
-  /* IE10+ */
-  background: linear-gradient(45deg, rgba(255, 255, 255, 0) 0%, rgba(135, 135, 135, 0.38) 50%, rgba(255, 255, 255, 0) 100%);
-  /* W3C */
-  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#00ffffff', GradientType=1);
-  /* IE6-9 fallback on horizontal gradient */
-  height: 60px;
-  margin-top: -30px;
-}
-
-[class*="OH"] {
-  overflow: hidden;
-}
-
-[class*="BR"] {
-}
-
-[class*="R6"] {
-  border-radius: 6px;
-}
-
-[class*="NF"] {
-  background: transparent;
-}
-
-[class*="BT"]:hover hover {
-  margin-left: 123px;
-}
-
-[class*="TU"] {
-  text-transform: uppercase;
-}
-
-[class*="PT"] {
-  cursor: pointer;
-}
-
-[class*="BT"] span {
-  position: absolute;
-  width: 200px;
-  margin-left: -100px;
-  z-index: 3;
-    color:white;
-}
-
-canvas {
-  margin: 0;
-  padding: 0;
-  display: block;
-  position: absolute;
-  margin-top: -30px;
-background-color: transparent;
-}
 
 
 
@@ -586,4 +510,8 @@ background-color: transparent;
     text-shadow: 0px 0px 0px;
     position: relative;
     display: table;
+}
+
+.Aboutme {
+    padding-top: 115px;
 }
