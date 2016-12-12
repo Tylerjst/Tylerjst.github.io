@@ -342,14 +342,14 @@ button{
 }
 
 .window-tag {
-     background: rgba(256,256,256, 1);
+/*     background: rgba(255,165,0, .9);*/
   padding-top: 4px;
   padding-bottom: 4px;
-  padding-left: 4px;
+/*  padding-left: 4px;*/
   transition: background .25s;
     position:absolute;
-/*  bottom: 0;*/
-    border-top: 3px black solid;
+  bottom: 0;
+/*    border-top: 3px black solid;*/
 
 }
 
@@ -360,11 +360,11 @@ button{
 }
 
 .portfolio-text {
-/*    color:#F1FBFD;*/
-    padding: 4px;
-    border-bottom: 3px black solid;
-    border-top: 1px black solid;
-    background: rgba(256,256,256, 1);
+    color:#F1FBFD;
+/*    padding-left: 70px;*/
+  background: rgba(0,51,51, .8);
+    padding:6px;
+    margin: 0px;
 }
 
 .window-tag h3 {
@@ -391,4 +391,50 @@ button{
     background-position: center;
     width: 100%;
     min-height: 300px;
+}
+
+.portfolio-pic-writing-1 {
+    height: 100%;
+    position:relative;
+    background-image:   url(images/nasa.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 300px;
+}
+
+.portfolio-pic-writing-3 {
+    height: 100%;
+    position:relative;
+    background-image:   url(images/datenight.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 300px;
+}
+
+.portfolio-pic-writing-2 {
+    height: 100%;
+    position:relative;
+    background-image:   url(images/spongebob.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 300px;
+}
+
+.portfolio-text p{
+/*    border-top: 1px black solid;*/
+}
+
+.portfolio-pic:hover > .portfolio-text{
+  background: rgba(241,251,253, .5);
+
+
+}
+
+.window-tag h4 {
+    background: rgba(255,165,0, .8);
+    padding: 6px;
+    margin:0px;
 }
