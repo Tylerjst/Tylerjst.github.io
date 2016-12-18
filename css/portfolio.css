@@ -347,7 +347,7 @@ button{
   padding-bottom: 4px;
 /*  padding-left: 4px;*/
   transition: background .25s;
-    position:absolute;
+position:absolute;
   bottom: 0;
 /*    border-top: 3px black solid;*/
 
@@ -437,4 +437,94 @@ button{
     background: rgba(255,165,0, .8);
     padding: 6px;
     margin:0px;
+}
+
+.storyboard {
+    background: rgba(0,51,51, .8);
+    overflow: hidden;
+    width:100%;
+    position:fixed;
+    z-index: 1;
+    border-bottom: 2px solid rgba(0,51,51, .8);
+    
+}
+
+.act {
+    overflow: hidden;
+    height:350px;    
+     -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.act1 {
+    background-image: url(images/ECOWebsite.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+ 
+    
+    
+}
+
+.act.shrink {
+    height: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.first-stuff {
+    margin-top: 350px;
+}
+
+.active-act {
+    border-bottom: 10px solid rgba(255,165,0, 1);
+    -webkit-transition: border 0.4s;
+    transition: border 0.4s;
+}
+
+.storyboard-tag h1 {
+    background: rgba(255,165,0, .8);
+    padding: 6px;
+    margin:0px;
+}
+
+.window-tag {
+    
+}
+
+.storyboard-tag {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  transition: background .25s;
+position:absolute;
+    top: 70%;
+/*    border-top: 3px black solid;*/
+
+}
+
+.storyboard-tag p {
+    background: rgba(255,165,0, .8);
+    padding: 6px;
+    margin:0px;
+}
+
+.act:hover{
+    background-color: rgba(241,251,253, 1);
+
+}
+
+.act2 {
+    background-image: url(images/ecoleo.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+ 
+}
+
+.act3 {
+    background-image: url(images/ecopeeps.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
 }

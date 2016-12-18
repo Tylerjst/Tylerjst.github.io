@@ -116,4 +116,53 @@ var color2 = "rgb("+r2+","+g2+","+b2+")";
 setInterval(updateGradient,10);
 /* End */
 
+    
+    /* Storyboard header */
+    
+    $(window).scroll(function() {
+  if ($(document).scrollTop() > 100) {
+    $('.act').addClass('shrink');
+  } else {
+    $('.act').removeClass('shrink');
+  }
+});
+    
+    var first = $('.first-act').offset();
+    var second = $('.second-act').offset();
+    var third = $('.third-act').offset();
+    
+    $(window).scroll(function(){
+       if($(document).scrollTop() > first.top){
+        $('.act').removeClass('active-act');
+          $('.act').addClass('active-act');
+        
+       } else {
+        $('.act1').removeClass('active-act');
+    }
+                    
+}); 
+    
+    $(window).scroll(function(){
+       if($(document).scrollTop() > second.top){
+            $('.act').removeClass('active-act');
+           $('.act2').addClass('active-act');
+        
+       } else {
+        $('.act2').removeClass('active-act');
+    }
+                    
+}); 
+    
+    $(window).scroll(function(){
+       if($(document).scrollTop() > third.top){
+            $('.act').removeClass('active-act');
+           $('.act3').addClass('active-act');
+        
+       } else {
+        $('.act3').removeClass('active-act');
+    }
+                    
+}); 
+    
+    
 });
