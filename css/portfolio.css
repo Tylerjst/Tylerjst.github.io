@@ -396,7 +396,7 @@ position:absolute;
 .portfolio-pic-writing-1 {
     height: 100%;
     position:relative;
-    background-image:   url(images/nasa.png);
+    background-image:   url(images/datenight.png);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -416,7 +416,7 @@ position:absolute;
 .portfolio-pic-writing-2 {
     height: 100%;
     position:relative;
-    background-image:   url(images/spongebob.png);
+    background-image:   url(images/Benedict.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -456,12 +456,6 @@ position:absolute;
 }
 
 .act1 {
-    background-image: url(images/ECOWebsite.png);
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    background-repeat: no-repeat;
- 
     
     
 }
@@ -473,7 +467,7 @@ position:absolute;
 }
 
 .first-stuff {
-    margin-top: 350px;
+    margin-top: 390px;
 }
 
 .active-act {
@@ -514,6 +508,24 @@ position:absolute;
 }
 
 .act2 {
+    
+}
+
+.act3 {
+    
+}
+
+.act1-ECO {
+    background-image: url(images/ECOWebsite.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+ 
+    
+}
+
+.act2-ECO {
     background-image: url(images/ecoleo.jpg);
     background-size: cover;
     background-position: center;
@@ -521,9 +533,109 @@ position:absolute;
  
 }
 
-.act3 {
+.act3-ECO {
     background-image: url(images/ECOpeeps.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
 }
+
+.act1-LED {
+    background-image: url(images/LEDs.JPG);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.act2-LED {
+    background-image: url(images/LEDpresentation.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.act3-LED {
+    background-image: url(images/);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.act1-NASEC {
+    background-image: url(images/LEDpresentation.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.act2-NASEC {
+    background-image: url(images/LEDpresentation.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.act3-NASEC {
+    background-image: url(images/LEDpresentation.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.act1-report {
+    background-image: url(images/report1.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.act2-report {
+    background-image: url(images/sustainable-front.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.act3-report {
+    background-image: url(images/sustainable-back.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.act1-writing {
+    background-image: url(images/sandpaper.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.act2-writing {
+    background-image: url(images/sandpaper.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.act3-subplot {
+    background-image: url(images/farris.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.act1-design {
+    background-image: url(images/farris.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.act1-video {
+    background-image: url(images/video.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+
