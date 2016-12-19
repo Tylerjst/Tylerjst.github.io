@@ -182,12 +182,13 @@ hr{
 .mas-info{
     color: White;
     /*background-image:url(http://i.imgur.com/xMxFZab.png);*/
-    background-color: rgba(0,0,0, .4);
+    background-color: rgba(0, 0, 0, .5);
     padding-left: 25px;
     padding-right: 25px;
     padding-bottom: 60px;
     padding-top: 30px;
     border-radius: 7px;
+    border-top: 6px solid #F1FBFD;
 }
 
 
@@ -528,4 +529,16 @@ line-height: 60px;
 #gradient {
     padding-top: 30px;
     padding-bottom: 15px;
+}
+
+.mas-info-intro {
+    color: black;
+    /*background-image:url(http://i.imgur.com/xMxFZab.png);*/
+    background-color: rgba(256,256,256, .5);
+    padding-left: ;
+    padding-right: ;
+    padding-bottom: ;
+    padding-top: ;
+    border-radius: 7px;
+    margin-bottom: 30px;
 }
