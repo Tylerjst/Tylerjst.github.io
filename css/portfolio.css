@@ -502,8 +502,9 @@ position:absolute;
     margin:0px;
 }
 
-.act:hover{
-    background-color: rgba(241,251,253, 1);
+.act:hover > .storyboard-tag h1, .act:hover > .storyboard-tag p{
+    background: #F1FBFD;
+    transition: background 0.35s;
 
 }
 
@@ -639,3 +640,25 @@ position:absolute;
 }
 
 
+
+.storyboard-link a:hover{
+    
+}
+
+.a{
+    color:black;
+}
+
+
+
+.storyboard-link {
+    color:black;
+}
+
+.storyboard-link:hover {
+    color:black;
+}
+
+.storyboard-tag p, .storyboard-tag h1{
+    transition: background .35s;
+}
