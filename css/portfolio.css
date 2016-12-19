@@ -406,7 +406,7 @@ position:absolute;
 .portfolio-pic-writing-3 {
     height: 100%;
     position:relative;
-    background-image:   url(images/datenight.png);
+    background-image:   url(images/earthcraft.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -490,7 +490,7 @@ position:absolute;
   padding-top: 4px;
   padding-bottom: 4px;
   transition: background .25s;
-position:absolute;
+ position:absolute;
     top: 70%;
 /*    border-top: 3px black solid;*/
 
@@ -502,7 +502,7 @@ position:absolute;
     margin:0px;
 }
 
-.act:hover > .storyboard-tag h1, .act:hover > .storyboard-tag p{
+.act:hover > .storyboard-tag h1, .act:hover > .storyboard-tag p, .act:hover> .storyboard-tag h4{
     background: #F1FBFD;
     transition: background 0.35s;
 
@@ -563,7 +563,7 @@ position:absolute;
 }
 
 .act1-NASEC {
-    background-image: url(images/LEDpresentation.png);
+    background-image: url(images/NASEC.png);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -659,6 +659,20 @@ position:absolute;
     color:black;
 }
 
-.storyboard-tag p, .storyboard-tag h1{
+.storyboard-tag p, .storyboard-tag h1, .storyboard-tag h4 {
     transition: background .35s;
+}
+
+.storyboard-tag h4 {
+    background: rgba(255,165,0, .8);
+    padding: 6px;
+    margin:0px;
+}
+
+.storyboard-subplot-tag {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    transition: background .25s;
+    position:absolute;
+    top: 80%;
 }
