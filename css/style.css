@@ -186,9 +186,9 @@ hr{
     padding-left: 25px;
     padding-right: 25px;
     padding-bottom: 60px;
-    padding-top: 30px;
+    padding-top: 40px;
     border-radius: 7px;
-    border-top: 6px solid #F1FBFD;
+/*    border-top: 6px solid #F1FBFD;*/
 }
 
 
@@ -224,7 +224,7 @@ hr{
 
 .window{
   min-height: 250px;
-  border-top: 6px solid #F1FBFD;
+/*  border-top: 6px solid #F1FBFD;*/
   box-shadow: none;
   transition: border-top .25s;
   transition: box-shadow .55s;
@@ -238,14 +238,13 @@ transition-delay: box-shadow .25s;
 
 .window:hover{
   min-height: 250px;
-  border-top: 6px solid #F1FBFD;
+/*  border-top: 6px solid #F1FBFD;*/
   box-shadow: 5px 5px 0px 1px #D8E1E3;
   transition: border-top .25s;
   transition: color .25s;
   transition: box-shadow .55s;
     transition-delay: box-shadow .25s;
   color:#003333;
-
 
 }
 
@@ -534,11 +533,9 @@ line-height: 60px;
 .mas-info-intro {
     color: black;
     /*background-image:url(http://i.imgur.com/xMxFZab.png);*/
-    background-color: rgba(256,256,256, .5);
-    padding-left: ;
-    padding-right: ;
-    padding-bottom: ;
-    padding-top: ;
+    background-color: #F1FBFD;
+    
+/*    padding-top: 7px;*/
     border-radius: 7px;
-    margin-bottom: 30px;
+    margin-bottom: -10px;
 }
