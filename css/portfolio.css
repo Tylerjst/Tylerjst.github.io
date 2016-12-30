@@ -549,14 +549,14 @@ position:absolute;
 }
 
 .act2-LED {
-    background-image: url(images/LEDpresentation.png);
+    background-image: url(images/lednight.JPG);
     background-size: cover;
     background-position: center;
     position: relative;
 }
 
 .act3-LED {
-    background-image: url(images/);
+    background-image: url(images/ledsign.JPG);
     background-size: cover;
     background-position: center;
     position: relative;

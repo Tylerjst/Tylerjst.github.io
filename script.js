@@ -113,7 +113,7 @@ var color2 = "rgb("+r2+","+g2+","+b2+")";
   }
 }
 
-setInterval(updateGradient,10);
+//setInterval(updateGradient,10);
 /* End */
 
     
