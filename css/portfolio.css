@@ -14,7 +14,7 @@ h3, h1{
     max-width: inherit;
     height: auto;
     width: auto;
-/*    border-top: 6px solid rgba(0,0,0,.4);*/
+    border-top: 6px solid #F1FBFD;
     padding-bottom: 10px;
 }
 
@@ -26,7 +26,7 @@ h3, h1{
     width: auto;
     max-height: 750px;
     height: auto;
-/*    border-top: 6px solid rgba(0,0,0, .4);*/
+    border-top: 6px solid #F1FBFD;
 
     
 }
@@ -721,4 +721,7 @@ footer ul {
 footer li{
     list-style: none;
   display: inline-block;
+}
+.tldr {
+    padding-top: 30px;
 }
