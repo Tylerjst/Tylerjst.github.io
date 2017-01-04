@@ -18,7 +18,7 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 
-h3{
+h3, h2, h1{
     font-family: 'Slabo 13px', serif;
 }
 
@@ -127,7 +127,7 @@ hr{
 .jumbotron-main{
     height: 100%;
     width: 100%;
-    background-image:url(images/solar-3.jpg);
+    background-color: white;
     background-size: cover;
     background-repeat: no-repeat;
     color: #006666;
@@ -162,8 +162,8 @@ hr{
 
 
 .whativedone{
-  padding-top: 30px;
-    padding-bottom: 30px;
+  padding-top: 60px;
+    padding-bottom: 60px;
   margin-bottom: 50px;
   background-color: none;
   color: #003333;
@@ -191,7 +191,6 @@ hr{
 .mas-info{
     color: White;
     /*background-image:url(http://i.imgur.com/xMxFZab.png);*/
-    background-color: rgba(0, 0, 0, .5);
     padding-left: 25px;
     padding-right: 25px;
     padding-bottom: 60px;
@@ -248,7 +247,7 @@ transition-delay: box-shadow .25s;
 .window:hover{
   min-height: 250px;
 /*  border-top: 6px solid #F1FBFD;*/
-  box-shadow: 5px 5px 0px 1px #D8E1E3;
+  box-shadow: 5px 5px 0px 1px rgba(0,0,0, .6);
   transition: border-top .25s;
   transition: color .25s;
   transition: box-shadow .55s;
@@ -264,7 +263,7 @@ transition-delay: box-shadow .25s;
 }
 
 .window-tag{
-  background: rgba(0,51,51, .5);
+  background: rgba(0,0,0, .4);
   padding-top: 4px;
   padding-bottom: 4px;
   padding-left: 4px;
@@ -321,9 +320,9 @@ transition-delay: box-shadow .25s;
 
 .articles{
 
-  padding-top: 30px;
+  padding-top: 60px;
   padding-bottom: 70px;
-  background-color: black;
+    background-color: rgba(0, 0, 0, .8);
   color: #F1FBFD;
 }
 
@@ -351,7 +350,9 @@ transition-delay: box-shadow .25s;
 
     background-color: none;
     color: #333;
-    padding: 25px;
+    padding-top: 80px;
+    padding-bottom: 60px;
+/*    padding: 25px;*/
     position: relative;
     z-index: 1;
     width: 100%;
@@ -536,17 +537,30 @@ line-height: 60px;
 }
 
 #gradient {
-    padding-top: 30px;
-    padding-bottom: 15px;
-    background-color: #CCCCCC;
+    padding-top: 80px;
+    padding-bottom: 75px;
+    background-color: rgba(0, 0, 0, .4);
 }
 
 .mas-info-intro {
     color: black;
     /*background-image:url(http://i.imgur.com/xMxFZab.png);*/
-    background-color: #F1FBFD;
     
-/*    padding-top: 7px;*/
+    height:20px;
     border-radius: 7px;
     margin-bottom: -10px;
+}
+
+.mas-info-intro-row {
+    border-radius: 7px;
+    margin-bottom: -10px;
+    background-color: rgba(255, 165, 0, .7);
+}
+
+.fun {
+    padding-top: 20px;
+}
+
+.window-pad {
+    padding-top: 35px;
 }
