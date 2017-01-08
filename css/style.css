@@ -484,8 +484,8 @@ line-height: 60px;
 }
 
 .window-7 {
-    background-image: url("/css/images/storieshousehome.png");
-    background-size: cover;
+    background-image: url("/css/images/sandpaper.png");
+    background-size: 150%;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -507,7 +507,7 @@ line-height: 60px;
 
 
 .window-9 {
-    background-image: url("/css/images/EBI2015.jpg");
+    background-image: url("/css/images/farris.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

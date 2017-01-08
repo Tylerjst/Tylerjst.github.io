@@ -88,7 +88,7 @@ button{
 .portfolio-pic-ECO-1 {
     height: 100%;
     position:relative;
-    background-image:   url(images/ClimateWeekFINAL.jpg);
+    background-image:   url(images/ClimateWeekEarthFINAL.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -113,7 +113,7 @@ button{
 .portfolio-pic-LED-1 {
     height: 100%;
     position:relative;
-    background-image:   url(images/grant.png);
+    background-image:   url(images/LEDs.JPG);
     background-size: cover;
     background-position: center;
 }
@@ -121,7 +121,7 @@ button{
 .portfolio-pic-LED-2 {
     height: 100%;
     position:relative;
-    background-image:   ;
+    background-image: url(images/lednight.JPG)  ;
     background-size: cover;
     background-position: center;
 }
@@ -547,7 +547,7 @@ position:absolute;
 }
 
 .act1-LED {
-    background-image: url(images/LEDs.JPG);
+    background-image: url(images/ledceiling.JPG);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -723,4 +723,20 @@ footer li{
 }
 .tldr {
     padding-top: 30px;
+}
+
+.portfolio-paragraph {
+    padding-top: 30px;
+}
+
+.portfolio-pic-info-7 {
+    height: 100%;
+    position:relative;
+    background-image:   url(images/osileaf.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.modal-footer {
+    text-align: left;
 }
