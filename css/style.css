@@ -38,7 +38,7 @@ a {
 
 a:hover{
   text-decoration: none;
-  color: orange;
+  color: #00ffff;
   transition: color .25s;
 }
 
@@ -58,10 +58,10 @@ hr{
 /* Navbar Stuff */
 .poop{
     display: inline;
-    color:#333;
+    color:#003333;
 }
 .nav {
-  background-color: transparent;
+  background-color: white;
   /*font-weight: Bold;*/
   /*box-shadow: 0px 1px 10px 1px #7DF9FF;*/
   transition: all 0.35s;
@@ -70,12 +70,11 @@ hr{
 }
 
 .nav li{
-    color: white;
     font-size: 16px;
 }
 
 .icon-bar{
-    background-color:white;
+    background-color: white;
 }
 
 .navbar-border{
@@ -84,7 +83,7 @@ hr{
 }
 
 .navbar-brand{
-    color:white;
+    color:#003333;
 }
 
 .nav a:focus{
@@ -125,10 +124,9 @@ hr{
 
 
 .jumbotron-main{
-    height: 100%;
+    background-color: inherit;
+/*    height: 100%;*/
     width: 100%;
-    background-image: url(images/WebsiteBannerSpace.jpg);
-    background-size: cover;
     background-repeat: no-repeat;
     color: #006666;
     text-shadow: 0px 0px 0px;
@@ -166,7 +164,6 @@ hr{
   padding-top: 60px;
     padding-bottom: 60px;
   margin-bottom: 50px;
-  background-color: none;
   color: #003333;
 
 }
@@ -190,13 +187,13 @@ hr{
 /*    Portfolio   */
 
 .mas-info{
-    color: White;
+    color: #003333;
     /*background-image:url(http://i.imgur.com/xMxFZab.png);*/
+/*
     padding-left: 25px;
     padding-right: 25px;
+*/
     padding-bottom: 60px;
-    padding-top: 40px;
-    border-radius: 7px;
 /*    border-top: 6px solid #F1FBFD;*/
 }
 
@@ -248,7 +245,7 @@ transition-delay: box-shadow .25s;
 .window:hover{
   min-height: 250px;
 /*  border-top: 6px solid #F1FBFD;*/
-  box-shadow: 5px 5px 0px 1px rgba(0,0,0, .6);
+  box-shadow: 5px 5px 0px 1px rgba(25,25,112, .6);
   transition: border-top .25s;
   transition: color .25s;
   transition: box-shadow .55s;
@@ -257,16 +254,12 @@ transition-delay: box-shadow .25s;
 
 }
 
-.window:hover > .window-tag{
-  background: rgba(241,251,253, 1);
-    
 
-}
 
 .window-tag{
-  background: rgba(0,0,0, .4);
-  padding-top: 4px;
-  padding-bottom: 4px;
+/*  background: rgba(0,0,0, .4);*/
+  padding-top: 1px;
+  padding-bottom: 1px;
   padding-left: 4px;
   transition: background .25s;
 
@@ -348,9 +341,7 @@ transition-delay: box-shadow .25s;
 
 
 .contact{
-    background-image: url(images/WebsiteFooterSpace.jpg);
     
-    background-color: none;
     color: #333;
     padding-top: 80px;
     padding-bottom: 60px;
@@ -398,7 +389,7 @@ transition-delay: box-shadow .25s;
  border-radius: 100%;
 text-align: center;
 line-height: 60px;
-  transition: background-color .5s;
+  transition: color .5s;
     display: inline-block;
     text-align: center;
  
@@ -406,9 +397,8 @@ line-height: 60px;
 }
 
 .btn-contact:hover{
-  background-color: orange;
-  color: #006666;
-  transition: background-color .25s;
+  color: #00ffff;
+  transition: color .25s;
     text-align: center;
 
 }
@@ -539,9 +529,7 @@ line-height: 60px;
 }
 
 #gradient {
-    padding-top: 80px;
     padding-bottom: 75px;
-    background-color: rgba(0, 0, 0, .15);
 }
 
 .mas-info-intro {
@@ -564,5 +552,10 @@ line-height: 60px;
 }
 
 .window-pad {
-    padding-top: 35px;
+    padding-top: 55px;
+}
+
+.poop{
+    display: inline;
+    color:#333;
 }

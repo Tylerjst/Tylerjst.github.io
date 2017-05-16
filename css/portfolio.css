@@ -54,7 +54,7 @@ a{
 }
 
 a:hover{
-  color:orange;
+  color:#00ffff;
   transition: color .25s;
 }
 
@@ -312,12 +312,12 @@ button{
 }
 
 .portfolio-link {
-    color: orange;
+    color: #00ffff;
 }
 
 .portfolio-link:hover {
     text-decoration: none;
-    color: rgba(0,0,0,.8);
+    color: rgba(25,25,112,.6);
 }
 
 .portfolio-pic-ECO-4 {
@@ -349,7 +349,6 @@ button{
 .window-tag {
 /*     background: rgba(255,165,0, .9);*/
   padding-top: 4px;
-  padding-bottom: 4px;
 /*  padding-left: 4px;*/
   transition: background .25s;
 position:absolute;
@@ -472,7 +471,7 @@ position:absolute;
 }
 
 .first-stuff {
-    margin-top: 390px;
+    margin-top: 60px;
 }
 
 .active-act {
@@ -697,7 +696,7 @@ position:absolute;
  border-radius: 100%;
 text-align: center;
 line-height: 60px;
-  transition: background-color .5s;
+  transition: color .5s;
     display: inline-block;
     text-align: center;
  
@@ -705,9 +704,8 @@ line-height: 60px;
 }
 
 .btn-contact:hover{
-  background-color: orange;
-  color: #006666;
-  transition: background-color .25s;
+  color: #00ffff;
+  transition: color .25s;
     text-align: center;
 
 }
@@ -739,4 +737,19 @@ footer li{
 
 .modal-footer {
     text-align: left;
+}
+
+.window-pad {
+    padding-top: 35px;
+}
+
+.articles{
+
+  padding-top: 60px;
+  padding-bottom: 70px;
+}
+
+.article-info {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
