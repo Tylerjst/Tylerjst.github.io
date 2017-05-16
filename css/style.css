@@ -73,9 +73,7 @@ hr{
     font-size: 16px;
 }
 
-.icon-bar{
-    background-color: white;
-}
+
 
 .navbar-border{
         border-bottom: 1px solid orange;
@@ -517,7 +515,7 @@ line-height: 60px;
 }
 
 .Aboutme {
-    padding-top: 115px;
+/*    padding-top: 115px;*/
     font-family: 'Sanchez', serif;
 }
 
