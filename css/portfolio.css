@@ -144,7 +144,7 @@ button{
 .portfolio-pic-report-3 {
     height: 100%;
     position:relative;
-    background-image:   url(images/report4.png);
+    background-image:   url(images/report4.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -152,7 +152,7 @@ button{
 .portfolio-pic-report-4 {
      height: 100%;
     position:relative;
-    background-image:   url(images/report5.png);
+    background-image:   url(images/report5.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -200,7 +200,7 @@ button{
 .portfolio-pic-report-6 {
      height: 100%;
     position:relative;
-    background-image:   url(images/report7.png);
+    background-image:   url(images/report7.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -752,4 +752,57 @@ footer li{
 .article-info {
     padding-top: 30px;
     padding-bottom: 30px;
+}
+
+.portfolio-pic-climate-1 {
+    height: 100%;
+    position:relative;
+    background-image:   url(images/MomentumStickerStars.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio-pic-climate-2 {
+    height: 100%;
+    position:relative;
+    background-image:   url(images/EmoryCOPLogo.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio-pic-climate-3 {
+    height: 100%;
+    position:relative;
+    background-image:   url(images/thanks.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.first-act {
+    margin-top: 50px;
+    
+}
+
+.portfolio-pic-climate-4 {
+    height: 100%;
+    position:relative;
+    background-image:   url(images/MomentumSticker.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio-pic-design-7 {
+    height: 100%;
+    position:relative;
+    background-image: url(../css/images/SlyfactorGif.gif);
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio-pic-design-8 {
+    height: 100%;
+    position:relative;
+    background-image:   url(../css/images/alumnibannerfinal2.jpg);
+    background-size: cover;
+    background-position: center;
 }
