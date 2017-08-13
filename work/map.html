@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<link href="https://fonts.googleapis.com/css?family=Raleway|Slabo+13px|Sanchez" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  	<link rel='stylesheet' type = 'text/css' href='../css/portfolio.css'/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  	  <script type="text/javascript" src="../script.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css"
+   integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ=="
+   crossorigin=""/>
+    
+     <link rel="stylesheet" type="text/css" href="../css/mapstyle.css"/>
+    
+  <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"
+   integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log=="
+   crossorigin=""></script>
+
+
+    <title>Map</title>
+
+    <!-- Bootstrap Core CSS -->
+
+    <!-- Custom CSS -->
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navi navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar" style="background-color:black;"></span>
+                    <span class="icon-bar" style="background-color:black;"></span>
+                    <span class="icon-bar" style="background-color:black;"></span>
+                </button>
+                <a class="navbar-brand" href="../index.html">Tyler Stern</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                
+                <ul class=" nav navbar-nav navbar-right">
+                    <li class = "poop">
+                                <a href="../about.html">About</a>
+                                    </li>	
+                                <li class = "poop">
+								<a href = "../documents/ResumeNuevo.pdf">Resume</a>
+								</li>
+								
+								<li class = "poop">
+										<a href="../contact.html">Contact</a>
+								</li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    
+    
+
+    <!-- Page Content -->
+    <div class="container"   >
+
+        <!-- Portfolio Item Heading -->
+        <div class="row first-stuff ">
+            <div class = "col-lg-6">
+            <img class="img-responsive portfolio-item-big" src="../css/images/map3.jpg" alt="">
+
+            </div>
+            <div class="col-lg-6">
+                <h1  class = "">Emory's Sustainability Map
+                    <br><small>Renovating OSI's Technology</small>
+                </h1>
+                <hr style = "border-top: 3px solid #77E2FC;" align ="left" width = "50px;" >
+
+                <div class ="col-sm-12">
+                <p class = "lead">
+                The Office of Sustainability Iniatives' website featured an outdated sustainability map. It was my job to renovate it.</p>
+                    <p>Explore the <a href = "http://tylerjst.github.io/EmoryMap/" target="_blank" class = "portfolio-link">map</a> on your own.</p>
+               
+                </div>
+            </div>
+            
+        </div>
+        <!-- /.row -->
+
+        <!-- Portfolio Item Row -->
+        <div class="row morepics first-act" id = "first-act">
+
+            <div class="col-md-8">
+                <img class="img-responsive portfolio-item-big" src="../css/images/map2.jpg" alt="">
+            </div>
+
+            <div class="col-md-4">
+                <h3>I. Map 1.0</h3>
+                
+                <p>The intention of OSI's sustainability map is to centralize geographic information about Emory's sustainability features. Things like LEED certified buildings, bike share locations, or CLIFF shuttle stops could be rendered onto an easy to read map that users could use to wayfind and learn more about Emory's sustainability initiatives.</p>
+                <p>Unfortunately, the first version of this map wasn't super user-friendly. It used a flat, vector map of Emory created in Illustrator as the base layer. The additional features could be toggled by "adding" that flat image layer on top of the base layer. </p>
+                <p>Check out the map for yourself <a href = "http://sustainability.emory.edu/html/map/index.html" target = "_blank" class = "portfolio-link">here</a></p>
+                
+            </div>
+
+        </div>
+        
+        
+        
+        <!-- /.row -->
+
+        
+    <div class="row morepics second-act" id = "second-act" >
+
+        
+        <div class="col-md-8">
+<!--                <img class="img-responsive portfolio-item-big" src="../css/images/ecoleo.jpg" alt="">-->
+                <div id ="map" >
+<script>
+//   
+    
+
+
+var info = L.control({position: 'bottomright'});
+
+info.onAdd = function (map) {
+    this._div = L.DomUtil.create('div', 'info'); // create a div with a class "info"
+    this.update();
+    return this._div;
+};
+
+
+// method that we will use to update the control based on feature properties passed
+
+
+//URL GeoJson Data
+
+var treeUrl = "http://geospatial.library.emory.edu:8081/geoserver/Sustainability_Map/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=Sustainability_Map:Specimen_Tree_points&maxFeatures=50&outputFormat=text%2Fjavascript&format_options=callback:processTreeJSON";
+
+var treeTourUrl = "http://geospatial.library.emory.edu:8081/geoserver/Sustainability_Map/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=Sustainability_Map:Specimen_Tree_Tour&maxFeatures=50&outputFormat=text%2Fjavascript&format_options=callback:processTreeJSON";
+
+var civilUrl = "http://geospatial.library.emory.edu:8081/geoserver/Sustainability_Map/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=Sustainability_Map:Civil_Rights_Points&maxFeatures=50&outputFormat=text%2Fjavascript&format_options=callback:processCivilJSON";
+
+var civilTourUrl = "http://geospatial.library.emory.edu:8081/geoserver/Sustainability_Map/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=Sustainability_Map:Civil_Rights_Tour&maxFeatures=50&outputFormat=text%2Fjavascript&format_options=callback:processCivilJSON";
+
+var carShareUrl = "http://geospatial.library.emory.edu:8081/geoserver/Sustainability_Map/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=Sustainability_Map:Car_Share_Points&maxFeatures=50&outputFormat=text%2Fjavascript&format_options=callback:processCarJSON";
+
+var artUrl = "http://geospatial.library.emory.edu:8081/geoserver/Sustainability_Map/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=Sustainability_Map:Art_Walk_Points&maxFeatures=50&outputFormat=text%2Fjavascript&format_options=callback:processArtJSON";
+
+var artTourUrl = "http://geospatial.library.emory.edu:8081/geoserver/Sustainability_Map/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=Sustainability_Map:Art_Walk_Tour&maxFeatures=50&outputFormat=text%2Fjavascript&format_options=callback:processArtJSON";
+
+var gardenUrl = "http://geospatial.library.emory.edu:8081/geoserver/Sustainability_Map/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=Sustainability_Map:Garden_Markets_Points&maxFeatures=50&outputFormat=text%2Fjavascript&format_options=callback:processGardenJSON";
+
+var phoneUrl = "http://geospatial.library.emory.edu:8081/geoserver/Sustainability_Map/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=Sustainability_Map:Emergency_Phone_Locations&maxFeatures=50&outputFormat=text%2Fjavascript&format_options=callback:processPhoneJSON";
+
+var buildingUrl = "http://geospatial.library.emory.edu:8081/geoserver/Sustainability_Map/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=Sustainability_Map:All_Building_LEED&maxFeatures=500&outputFormat=text%2Fjavascript&format_options=callback:processBuildingJSON";
+
+var cliffUrl = "";
+
+var martaStopsUrl = "http://geospatial.library.emory.edu:8081/geoserver/Sustainability_Map/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=Sustainability_Map:MARTA_Emory_Stops_2015&maxFeatures=200&outputFormat=text%2Fjavascript&format_options=callback:processMartaJSON";
+
+var martaStationsUrl = "http://geospatial.library.emory.edu:8081/geoserver/Sustainability_Map/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=Sustainability_Map:MARTA_Emory_Rail_Stations&maxFeatures=50&outputFormat=text%2Fjavascript&format_options=callback:processMartaJSON";
+
+var martaRoutesUrl = "http://geospatial.library.emory.edu:8081/geoserver/Sustainability_Map/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=Sustainability_Map:MARTA_Emory_Routes_2015&maxFeatures=50&outputFormat=text%2Fjavascript&format_options=callback:processMartaJSON";
+
+
+//Importing GeoJson Data
+
+$.ajax(treeUrl,
+        { dataType: 'jsonp' }
+      ).done(function ( treeData ) {});
+
+$.ajax(treeTourUrl,
+        { dataType: 'jsonp' }
+      ).done(function ( treeData ) {});
+
+$.ajax(civilUrl,
+         { dataType: 'jsonp' }
+      ).done(function ( civilData ) {});
+
+$.ajax(civilTourUrl,
+         { dataType: 'jsonp' }
+      ).done(function ( civilData ) {});
+
+$.ajax(carShareUrl,
+          { dataType: 'jsonp' }
+      ).done(function ( carData ) {});
+
+$.ajax(artUrl,
+      { dataType: 'jsonp'}
+    ).done(function (artData) {});
+
+$.ajax(artTourUrl,
+      { dataType: 'jsonp'}
+    ).done(function (artData) {});
+
+$.ajax(gardenUrl,
+      { dataType: 'jsonp'}
+    ).done(function (gardenData) {});
+
+$.ajax(phoneUrl,
+      { dataTyper: 'jsonp'}
+    ).done(function (phoneData){});
+
+$.ajax(buildingUrl,
+      { dataTyper: 'jsonp'}
+    ).done(function (buildingData){});
+
+$.ajax(martaStopsUrl,
+      { dataTyper: 'jsonp'}
+    ).done(function (martaData){});
+
+$.ajax(martaStationsUrl,
+      { dataTyper: 'jsonp'}
+    ).done(function (martaData){});
+
+$.ajax(martaRoutesUrl,
+      { dataTyper: 'jsonp'}
+    ).done(function (martaData){});
+
+
+//Creating LayerGroups
+
+var trees = L.layerGroup([]);
+var civil = L.layerGroup([]);
+var cars = L.layerGroup([]);
+var art = L.layerGroup([]);
+var garden = L.layerGroup([]);
+var phone = L.layerGroup([]);
+var buildings = L.layerGroup([]);
+var cliff = L.layerGroup([]);
+var marta = L.layerGroup([]);
+
+//icons
+var numIcon = L.icon({
+  iconUrl:'images/marker.png',
+  iconSize: [30, 54],
+  iconAnchor: [0, 50],
+  popupAnchor: [10, -50],
+
+});
+
+//
+info.update = function (props) {
+  if (props && props.Tree_Name){
+      this._div.innerHTML = '<h6>More Information</h6>' +  (props ?
+        '<b>' + props.Tree_Name + '</b><br />' + props.Content1 + ' ' +props.Content2
+        : 'Hover over a marker');
+
+    } else if (props && props.Civil_Name){
+        this._div.innerHTML = '<h4>More Information</h4>' +  (props ?
+            '<b>' + props.Civil_Name + '</b><br />' + props.Content1 + ' ' +props.Content2
+            : 'Hover over a marker');
+    } else if (props && props.CarShareIn){
+        this._div.innerHTML = '<h4>More Information</h4>' +  (props ?
+            '<b>' + props.CarShareIn + '</b><br />'
+            : 'Hover over a marker');
+    }else if (props && props.Art_Name){
+        this._div.innerHTML = '<h4>More Information</h4>' +  (props ?
+            '<b>' + props.Art_Name + '</b><br />'
+            : 'Hover over a marker');
+    }else if (props && props.Garden_Mkt){
+        this._div.innerHTML = '<h4>More Information</h4>' +  (props ?
+            '<b>' + props.Garden_Mkt + '</b><br />' + props.Content1 + ' '+ props.Content2
+            : 'Hover over a marker');
+    }else if (props && props.LEED_level){
+        this._div.innerHTML = '<h4>More Information</h4>' +  (props ?
+            '<b>' + props.Features + '</b><br/>' + props.LEED_level +'<br>' + props.Content1 + ' '+ props.Content2
+            : 'Hover over a marker');
+    }else if (props && props.name){
+        this._div.innerHTML = '<h4>More Information</h4>' +  (props ?
+            '<b>' + "Stop Name" + '</b><br/>' + props.name
+            : 'Hover over a marker');
+    }else if (props && props.STATION){
+        this._div.innerHTML = '<h4>More Information</h4>' +  (props ?
+            '<b>' + "MARTA Rail Station" + '</b><br/>' + props.STATION + '<br>' + props.Stn_Site
+            : 'Hover over a marker');
+    }else if (props && props.shortName){
+        this._div.innerHTML = '<h4>More Information</h4>' +  (props ?
+            '<b>' + "MARTA Bus Route" + '</b><br/>' + props.shortName + ' Bus - ' + props.longName
+            : 'Hover over a marker');
+    }else{
+      this._div.innerHTML = '<h4>More Information</h4>' +  (props ?
+          '<b>' + props.Civil_Name + '</b><br />' + props.Civil_Info
+          : 'Hover over a marker');
+    }
+
+};
+
+
+function highlightFeature(e) {
+    var layer = e.target;
+    info.update(layer.feature.properties);
+}
+
+function resetHighlight(e) {
+    var layer = e.target;
+    info.update();
+}
+//buildings
+
+
+//Adding GeoJson data to layers
+
+function processTreeJSON(treeData){
+    trees.addLayer(L.geoJson(treeData,{
+    onEachFeature: onEachFeature,
+    pointToLayer: function(feature,latlng){
+          return L.marker(latlng);
+        }
+    }))
+};
+
+function processCivilJSON(civilData){
+  civil.addLayer(L.geoJson(civilData,{
+    onEachFeature: onEachFeature,
+    pointToLayer: function(feature,latlng){
+      // if(feature.properties && feature.properties.Civil_Name) {
+        return L.marker(latlng);
+      // }
+  }}));
+};
+
+function processCarJSON(carsData){
+  cars.addLayer(L.geoJson(carsData,{
+    onEachFeature: onEachFeature,
+    pointToLayer: function(feature,latlng){
+      // if(feature.properties && feature.properties.CarShareIn) {
+        return L.marker(latlng);
+      // }
+    }
+  }));
+
+};
+
+function processArtJSON(artData){
+    art.addLayer(L.geoJson(artData,{
+    onEachFeature: onEachFeature,
+    pointToLayer: function(feature,latlng){
+          return L.marker(latlng);
+        }
+    }))
+};
+
+function processGardenJSON(gardenData){
+    garden.addLayer(L.geoJson(gardenData,{
+    onEachFeature: onEachFeature,
+    pointToLayer: function(feature,latlng){
+          return L.marker(latlng);
+        }
+    }))
+};
+
+function processPhoneJSON(phoneData){
+    phone.addLayer(L.geoJson(phoneData,{
+    onEachFeature: onEachFeature,
+    pointToLayer: function(feature,latlng){
+          return L.marker(latlng);
+        }
+    }))
+};
+
+function processBuildingJSON(buildingData){
+    buildings.addLayer(L.geoJson(buildingData,{
+    onEachFeature: onEachFeature,
+    pointToLayer: function(feature,latlng){
+          return L.marker(latlng, leedBuilding);
+        },
+    filter: function(feature, layer) {
+      if(feature.properties && feature.properties.LEED_level){
+          return true;
+        } else{
+          return false;
+        }
+        },
+    }))
+};
+
+function processMartaJSON(martaData){
+    marta.addLayer(L.geoJson(martaData,{
+    onEachFeature: onEachFeature,
+    pointToLayer: function(feature,latlng){
+      if(feature.properties.STATION === "Decatur" || feature.properties.STATION === "Chamblee"){
+        return L.circleMarker(latlng, redCircleStyle);
+      }else if(feature.properties.STATION === "Midtown" || feature.properties.STATION === "Avondale"){
+        return L.circleMarker(latlng, blueCircleStyle);
+      }else if(feature.properties.STATION === "Lindbergh Center" || feature.properties.STATION === "Inman Park-Reynoldstown"){
+        return L.circleMarker(latlng, greenCircleStyle);
+      }else{
+        return L.marker(latlng);
+      }},
+
+    style: function(feature){
+      switch (feature.properties.shortName) {
+        case '6':
+          return {color:'#00ff00'};
+          break;
+        case '19':
+          return {color:'#ff0000'};
+          break;
+        case '36':
+          return {color:'#0000ff'};
+          break;
+      }
+    },
+
+    }))
+};
+
+
+
+
+//Popups on the markers
+
+function onEachFeature(feature,layer){
+  if (feature.properties && feature.properties.Tree_Name){
+    var popupContent = "<h2>" + feature.properties.Tree_Name + "</h2>";
+    layer.bindPopup(popupContent);
+    layer.on({
+          mouseover: highlightFeature,
+          mouseout: resetHighlight,
+      });
+  } else if (feature.properties && feature.properties.Civil_Name){
+    var popupContent = "<h2>" + feature.properties.Civil_Name + "</h2>";
+    layer.bindPopup(popupContent);
+    layer.on({
+          mouseover: highlightFeature,
+          mouseout: resetHighlight,
+      });
+  } else if (feature.properties && feature.properties.CarShareIn){
+    var popupContent = "<h2>" + feature.properties.CarShareIn + "</h2>";
+    layer.bindPopup(popupContent);
+    layer.on({
+          mouseover: highlightFeature,
+          mouseout: resetHighlight,
+      });
+  } else if (feature.properties && feature.properties.Art_Name){
+    var popupContent = "<h2>" + feature.properties.Art_Name + "</h2>";
+    layer.bindPopup(popupContent);
+    layer.on({
+          mouseover: highlightFeature,
+          mouseout: resetHighlight,
+      });
+  } else if (feature.properties && feature.properties.Garden_Mkt){
+    var popupContent = "<h2>" + feature.properties.Garden_Mkt + "</h2>";
+    layer.bindPopup(popupContent);
+    layer.on({
+          mouseover: highlightFeature,
+          mouseout: resetHighlight,
+      });
+  }
+  else if (feature.properties && feature.properties.STATION){
+    var popupContent = "<h2>" + feature.properties.STATION + " Rail Station" + "</h2>" + '<br>' + feature.properties.Stn_Site;
+    layer.bindPopup(popupContent);
+    layer.on({
+          mouseover: highlightFeature,
+          mouseout: resetHighlight,
+      });
+  }
+  else if (feature.properties && feature.properties.name){
+    var popupContent = "<h2>" + "MARTA Bus Stop" +  "</h2>" + '<br>' + feature.properties.name;
+    layer.bindPopup(popupContent);
+    layer.on({
+          mouseover: highlightFeature,
+          mouseout: resetHighlight,
+      });
+  }
+  layer.on({
+        mouseover: highlightFeature,
+        mouseout: resetHighlight,
+    });
+
+};
+
+var grayscale = L.tileLayer('https:{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {id: 'your.mapbox.project.id', attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>'});
+
+    var map = L.map('map', {
+  center: [33.7925,-84.3205],
+  zoom: 15,
+  layers: [grayscale]
+  });
+
+
+
+
+
+
+  var baseMaps = {
+      "Grayscale": grayscale
+  };
+  var overlayMaps = {
+      "Specimen Trees & Tour": trees,
+      "Civil Rights Tour": civil,
+      "<span class = 'transportation'>Art Walk</span>": art,
+      "MARTA Shuttles": marta,
+      "Cliff Shuttles": cliff,
+      "<span class = 'garden'>Enterprise Car Sharing</span>": cars,
+      "<span class = 'campus'>Garden Markets</span>": garden,
+      "Emergency Phone Locations": phone,
+      "LEED Buildings":buildings,
+
+  };
+
+
+
+L.control.layers(null, overlayMaps).addTo(map);
+
+
+
+
+
+info.addTo(map);
+
+//Styles
+var redCircleStyle = {
+  radius: 50,
+  fillColor: '#ff0000',
+  fillOpacity:0.6,
+
+};
+
+var greenCircleStyle = {
+  radius: 50,
+  fillColor: '#00ff00',
+  fillOpacity:0.6,
+
+};
+
+var blueCircleStyle = {
+  radius: 50,
+  fillColor: '#0000ff',
+  fillOpacity:0.6,
+
+};
+
+var leedBuilding = {
+  fillColor: '#00ff00',
+}
+
+</script>
+
+  </div>
+                
+                
+            </div>
+            <div class="col-md-4">
+                <h3>II. Map 2.0</h3>
+               
+                <p>As OSI's intern that summer, I quickly updated the old map with updated shape layers then got started on creating a newer map. Fortunately, OSI had been planning on creating a new map for a while. I worked with staff in the Center for Digital Scholarship, where they had been collecting GeoJSON data from the University to implement with <a href=" http://leafletjs.com" target="_blank">Leaflet</a>, a javascript framework used for building interactive maps.</p>
+                <p>Although I had never used Leaflet before, I was confident I could familiarize myself with the framework. I got started building the new map.</p>
+                <p>The new map was the first legitimate web app that I ever built, so learning how to use the framework was definitely a challenge. I did have some staff available in the ECDS to give some pointers on how to access the GeoJSON data and connect to Emory's severs via AJAX, but for the most part, I was on my own for the project.</p>
+            </div>
+
+            
+
+        </div>  
+        
+       
+        <!-- Related Projects Row -->
+        
+        <div class = "row morepics third-act" id = "third-act">
+        
+        <div class="col-md-8 ">
+                 <img class="img-responsive portfolio-item-big" src="../css/images/map3.jpg" alt="">
+        </div>
+
+            <div class="col-md-4">
+                <h3>III. A New Hope</h3>
+                
+                <p>To counteract the pressure, I took the whole endeavour as one big trial-and-error experiment. I posted the existing layers from the old map (stuff like Garden Market and ZipCar locations), but also tried playing with new ideas, like MARTA bus paths and Emergency Phone Locations. This GeoJSON information was publically available.</p>
+                <p>What I found was that the Leaflet framework displayed this information way more effectively than Map 1.0. Not only was the base map easier to read and navigate, but the location markers were much nicer to look at and could display additional information about that waypoint in the bottom right corner. I also tried tying in my UX and graphic design skills by toying with custom markers to differentiate the features and develop OSI's own "flair" to the map.</p>
+            
+                
+                
+            </div>
+        
+        </div>
+        
+        <div class = "row morepics">
+        
+        <div class="col-md-8 ">
+            
+            
+            
+            
+            <div class="col-sm-6 col-xs-6">
+                <div class = "portfolio-item">
+                        <div class="portfolio-pic portfolio-pic-map-1" data-toggle="modal" data-target="#treeModal">
+                        </div>
+                        
+                    </div>  
+                </div>
+            
+                <div class="modal fade" id="treeModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog" role="image">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Map</h4>
+              </div>
+              <div class="modal-body">
+                <img class="img-responsive"  src="../css/images/map5.jpg" alt="">
+              </div>
+              <div class="modal-footer">
+                <p></p>
+              </div>
+            </div>
+          </div>
+        </div>
+            
+            
+        
+        
+            
+        
+        <div class = "col-sm-6 col-xs-6">
+                    <div class = "portfolio-item">
+                        <div class="portfolio-pic portfolio-pic-map-2" data-toggle="modal" data-target="#leedModal">
+                        </div>
+                    </div>
+            </div>
+        
+        
+        <div class="modal fade" id="leedModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog" role="image">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">LEED Buildings</h4>
+              </div>
+              <div class="modal-body">
+                <img class="img-responsive"  src="../css/images/map6.jpg" alt="">
+              </div>
+              <div class="modal-footer">
+                <p></p>
+              </div>
+            </div>
+          </div>
+        </div>
+            
+            
+            
+            
+        </div>
+
+            <div class="col-md-4 portfolio-paragraph">
+                 
+                     
+                    
+                <p>However, I ran into quite a number of problems along the way. I posted a good amount of features onto Map 2.0, but I found myself waiting for a huge amount of addtional data from other campus partners. For example, I was unable to display Cliff Shuttle bus routes and stops because I was never given access to that GeoJSON data from Parking and Transportation Services (I promise I asked nicely).</p>
+                
+                
+                <p>By the time my internship ended, the map was still incomplete. I still wanted to update several layers on the map, as well as develop different sets of markers for the individual layers, but I simply ran out of time. This was a hefty project that was left in solely my hands. Considering this, I'm pretty proud with what I was able to learn and build in a short couple of months.</p>
+                
+            
+                
+            </div>
+        
+        </div>
+                
+    <div class = "row morepics">
+                
+
+            
+                
+                
+       
+            
+        
+            
+        
+            
+        
+        
+            </div>
+        
+        
+        <div class="row tldr">
+
+
+
+            
+
+            <div class="col-sm-6 ">
+                
+                <h3>TL;DR:</h3>
+                <ul>
+                    <li>Created a podast on solar energy in GA</li>
+                    <li>Developed and managed the <a href="http://www.climate.emorydomains.org" target= "_blank" class = "portfolio-link">website</a></li>
+                    <li>Spearheaded marketing and branding for Climate Week and ECO</li>
+                    <li>Envisioned and co-created Emory Climate Organization</li>
+                    <li>Filmed and edited a series of promotional and educational videos from COP22</li>
+                </ul>
+            </div>
+            <div class = "col-sm-6">
+            </div>
+        </div>
+
+            
+            
+          
+        <!-- /.row -->
+        
+        
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-sm-6">
+                    <p style = "padding-top:15px;" align = "center"><small>I am Tyler Stern.</small></p>
+                </div>
+                <div class = "col-sm-6" align ="center">
+                          <ul>
+                          <li>
+                              
+                          <a href = "mailto:tyler.jst@gmail.com" class= "btn-contact" >
+                                        <i class = "fa fa-envelope fa-2x" ></i>
+                          
+                              </a>
+                        </li>
+
+                              <li>
+                              <a href = "https://github.com/Tylerjst" target="_blank" class= "btn-contact">
+                                      <i class = "fa fa-github fa-2x" ></i>
+                                    
+
+
+                              </a>
+                              </li>
+                              <li>
+                                  
+                              <a href = "https://www.linkedin.com/in/tjstern" target="_blank" class= "btn-contact">
+                                                                <i class = "fa fa-linkedin fa-2x" ></i>
+                                  </a>
+                                
+                              
+                            </li>
+                              <li>
+                                  
+                              <a href = "https://vimeo.com/studentparking" target="_blank" class= "btn-contact">
+                                                                <i class = "fa fa-vimeo fa-2x" ></i>
+                                  </a>
+                                
+                              
+                            </li>
+                          </ul>
+
+                        </div>
+            </div>
+            <!-- /.row -->
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+
+    <!-- Bootstrap Core JavaScript -->
+
+</body>
+
+    
+</html>

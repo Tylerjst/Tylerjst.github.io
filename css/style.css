@@ -192,6 +192,7 @@ hr{
     padding-right: 25px;
 */
     padding-bottom: 60px;
+    padding-top: 50px;
 /*    border-top: 6px solid #F1FBFD;*/
 }
 
@@ -560,6 +561,20 @@ line-height: 60px;
 
 .window-10 {
     background-image: url("images/marakech.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.window-11 {
+      background-image: url("images/report4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.window-12 {
+       background-image: url("images/map3.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

@@ -806,3 +806,59 @@ footer li{
     background-size: cover;
     background-position: center;
 }
+
+.portfolio-pic-map-1 {
+    height: 100%;
+    position:relative;
+    background-image:   url(images/map5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio-pic-map-2 {
+     height: 100%;
+    position:relative;
+    background-image:   url(images/map6.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio-pic-design-9 {
+    height: 100%;
+    position:relative;
+    background-image:   url(../css/images/BreBusinessFinal.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio-pic-design-10 {
+    height: 100%;
+    position:relative;
+    background-image: url(../css/images/Mars.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio-pic-report-7 {
+     height: 100%;
+    position:relative;
+    background-image:   url(images/report8.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio-pic-report-8 {
+     height: 100%;
+    position:relative;
+    background-image:   url(images/report9.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio-pic-report-9 {
+     height: 100%;
+    position:relative;
+    background-image:   url(images/report10.jpg);
+    background-size: cover;
+    background-position: center;
+}
