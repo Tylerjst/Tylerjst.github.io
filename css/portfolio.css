@@ -1,10 +1,14 @@
 body {
     padding-top: 40px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Gotham-Book', 'Raleway', sans-serif;
 }
 
 h3, h1{
-    font-family: 'Slabo 13px', serif;
+    font-family: 'Montserrat-Medium';
+}
+
+small{
+    font-family: 'Montserrat-ExtraLight';
 }
 
 .portfolio-item {
