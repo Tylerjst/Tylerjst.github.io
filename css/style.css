@@ -14,16 +14,14 @@ body{
     height: 100%;
     position: relative;
     margin: 0;
-    font-family: 'Gotham-Book', 'Raleway', sans-serif;
+    font-family: 'Montserrat-Light', 'Raleway', sans-serif;
 }
 
 h3, h2, h1{
-    font-family: 'Montserrat-Medium', 'Sanchez' , serif;
+    font-family: 'Raleway-Medium';
 }
 
-#gradient h3{
-    font-family: 'Montserrat-ExtraLight','Raleway', sans-serif;
-}
+
 
 *{
   
