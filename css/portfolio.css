@@ -928,7 +928,7 @@ padding-left: 5%;
 
 .gridImageRight {
     flex: 1;
-padding-let: 3px;
+padding-left: 3px;
 padding-right: 5%;
 }
 
@@ -944,7 +944,7 @@ padding-right: 5%;
 flex: 1;
 padding-right: 6px;
 padding-left: 10%;
-align-items: center;
+
 }
 
 .gridContentRight {
@@ -1044,6 +1044,21 @@ padding-bottom: 20px;
     max-width: 90%;
 /*    box-shadow: -20px 5px 0px 1px rgba(25,25,112, .6);*/
 /*    background-color: rgba(25,25,112, .6);*/
+}
+    
+    .gridContentLeft {
+flex: 1 100%;
+padding-left: 10%;
+padding-right: 10%;
+
+}
+
+.gridContentRight {
+    flex: 1 100%;
+    padding-top: 15px;
+    padding-right: 10%;
+    padding-left: 10%;
+
 }
 }
 
