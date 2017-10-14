@@ -3,7 +3,7 @@
 
 <head>
 <!--Fonts-->
-<link href="https://fonts.googleapis.com/css?family=Raleway|Montserrat|Sanchez" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400|Montserrat:400,600" rel="stylesheet">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     
 <!--Bootstrap-->
@@ -61,7 +61,7 @@
                     <span class="icon-bar" style="background-color:black;"></span>
                     <span class="icon-bar" style="background-color:black;"></span>
                 </button>
-                <a class="navbar-brand" href="../index.html">Tyler Stern</a>
+                <a class="navbar-brand logo" href="../index.html"><img src="../css/images/TylerFlavicon.png" width="30" height="30" alt=""></a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -87,60 +87,67 @@
     
 
     <!-- Page Content -->
-    <div class="container"   >
+    <section class="about">
+        
 
-        <!-- Portfolio Item Heading -->
-        <div class="row first-stuff ">
-            <div class = "col-lg-6">
-            <img class="img-responsive portfolio-item-big" src="../css/images/map3.jpg" alt="">
-
-            </div>
-            <div class="col-lg-6">
+        
+        <div class = "flexMainPicture">
+                <img src = "../css/images/map3.jpg"  class = "img-responsive mainpic">
+            <hr style = "border-top: 3px solid #77E2FC;" align ="left" width = "50px;">
+            
+        </div>
+        
+        
+            <div class = "flexContainerTitle">
+            
                 <h1  class = "">Emory's Sustainability Map
                     <br><small>Renovating OSI's Technology</small>
                 </h1>
-                <hr style = "border-top: 3px solid #77E2FC;" align ="left" width = "50px;" >
-
-                <div class ="col-sm-12">
-                <p class = "">
-                The Office of Sustainability Iniatives' website featured an outdated sustainability map. It was my job to renovate it.</p>
+                <p>
+                The Office of Sustainability Iniatives' website featured an outdated sustainability map. It was my job to renovate it.
+                </p>
                     
+            
+             
+        
+            </div>
+            
+
+        
+        
+        <div class = "flexPortfolioProblem">
+            <div class = "flexProjectContent">
+            <h3><strong>I. The Challenge</strong></h3>
+                
+                <p>The intention of OSI's sustainability map is to centralize geographic information about Emory's sustainability features. Things like LEED certified buildings, bike share locations, or CLIFF shuttle stops could be rendered onto an easy to read map that users could use to wayfind and learn more about Emory's sustainability initiatives.</p>
+                <p>Unfortunately, the first version of this map wasn't super user-friendly. It used a flat, vector map of Emory created in Illustrator as the base layer. The additional features could be toggled by "adding" that flat image layer on top of the base layer. </p>
+                <p>Check out the map for yourself <a href = "http://sustainability.emory.edu/html/map/index.html" target = "_blank" class = "portfolio-link">here</a></p>
                
-                </div>
+                
             </div>
             
         </div>
         <!-- /.row -->
 
         <!-- Portfolio Item Row -->
-        <div class="row morepics first-act" id = "first-act">
-
-            <div class="col-md-8">
-                <img class="img-responsive portfolio-item-big" src="../css/images/map2.jpg" alt="">
-            </div>
-
-            <div class="col-md-4">
-                <h3>I. Map 1.0</h3>
+        
+        <div class = "flexPortfolioProcess">
+            <div class = "flexProjectContent">
+            <h3><strong>II. Process</strong></h3>
+               
+                <p>As OSI's intern that summer, I quickly updated the old map with updated shape layers then got started on creating a newer map. Fortunately, OSI had been planning on creating a new map for a while. I worked with staff in the Center for Digital Scholarship, where they had been collecting GeoJSON data from the University to implement with <a href=" http://leafletjs.com" target="_blank">Leaflet</a>, a javascript framework used for building interactive maps.</p>
+                <p>Although I had never used Leaflet before, I was confident I could familiarize myself with the framework. I got started building the new map.</p>
+                <p>The new map was the first legitimate web app that I ever built, so learning how to use the framework was definitely a challenge. I did have some staff available in the ECDS to give some pointers on how to access the GeoJSON data and connect to Emory's severs via AJAX, but for the most part, I was on my own for the project.</p>
+                <p>Explore the <a href = "http://tylerjst.github.io/EmoryMap/" target="_blank" class = "portfolio-link">map</a> in full screen.</p>
                 
-                <p>The intention of OSI's sustainability map is to centralize geographic information about Emory's sustainability features. Things like LEED certified buildings, bike share locations, or CLIFF shuttle stops could be rendered onto an easy to read map that users could use to wayfind and learn more about Emory's sustainability initiatives.</p>
-                <p>Unfortunately, the first version of this map wasn't super user-friendly. It used a flat, vector map of Emory created in Illustrator as the base layer. The additional features could be toggled by "adding" that flat image layer on top of the base layer. </p>
-                <p>Check out the map for yourself <a href = "http://sustainability.emory.edu/html/map/index.html" target = "_blank" class = "portfolio-link">here</a></p>
+               
                 
+               
             </div>
-
-        </div>
-        
-        
-        
-        <!-- /.row -->
-
-        
-    <div class="row morepics second-act" id = "second-act" >
-
-        
-        <div class="col-md-8">
-<!--                <img class="img-responsive portfolio-item-big" src="../css/images/ecoleo.jpg" alt="">-->
-                <div id ="map" >
+            
+            <div class = "flexContainerColumn">
+                <div class = "gridContentCenter">
+                    <div id ="map" >
 <script>
 //   
     
@@ -564,150 +571,54 @@ var leedBuilding = {
 
 </script>
 
-  </div>
-                
-                
+                    </div>
+                </div>
             </div>
-            <div class="col-md-4">
-                <h3>II. Map 2.0</h3>
-               
-                <p>As OSI's intern that summer, I quickly updated the old map with updated shape layers then got started on creating a newer map. Fortunately, OSI had been planning on creating a new map for a while. I worked with staff in the Center for Digital Scholarship, where they had been collecting GeoJSON data from the University to implement with <a href=" http://leafletjs.com" target="_blank">Leaflet</a>, a javascript framework used for building interactive maps.</p>
-                <p>Although I had never used Leaflet before, I was confident I could familiarize myself with the framework. I got started building the new map.</p>
-                <p>The new map was the first legitimate web app that I ever built, so learning how to use the framework was definitely a challenge. I did have some staff available in the ECDS to give some pointers on how to access the GeoJSON data and connect to Emory's severs via AJAX, but for the most part, I was on my own for the project.</p>
-                <p>Explore the <a href = "http://tylerjst.github.io/EmoryMap/" target="_blank" class = "portfolio-link">map</a> in full screen.</p>
-            </div>
-
             
-
-        </div>  
-        
-       
-        <!-- Related Projects Row -->
-        
-        <div class = "row morepics third-act" id = "third-act">
-        
-        <div class="col-md-8 ">
-                 <img class="img-responsive portfolio-item-big" src="../css/images/map3.jpg" alt="">
-        </div>
-
-            <div class="col-md-4">
-                <h3>III. A New Hope</h3>
-                
+            
+            
+           
+            
+            <div class = "flexProjectContent">
+               
                 <p>To counteract the pressure, I took the whole endeavour as one big trial-and-error experiment. I posted the existing layers from the old map (stuff like Garden Market and ZipCar locations), but also tried playing with new ideas, like MARTA bus paths and Emergency Phone Locations. This GeoJSON information was publically available.</p>
                 <p>What I found was that the Leaflet framework displayed this information way more effectively than Map 1.0. Not only was the base map easier to read and navigate, but the location markers were much nicer to look at and could display additional information about that waypoint in the bottom right corner. I also tried tying in my UX and graphic design skills by toying with custom markers to differentiate the features and develop OSI's own "flair" to the map.</p>
             
-                
-                
-            </div>
-        
-        </div>
-        
-        <div class = "row morepics">
-        
-        <div class="col-md-8 ">
-            
-            
-            
-            
-            <div class="col-sm-6 col-xs-6">
-                <div class = "portfolio-item">
-                        <div class="portfolio-pic portfolio-pic-map-1" data-toggle="modal" data-target="#treeModal">
-                        </div>
-                        
-                    </div>  
-                </div>
-            
-                <div class="modal fade" id="treeModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-          <div class="modal-dialog" role="image">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="myModalLabel">Map</h4>
-              </div>
-              <div class="modal-body">
-                <img class="img-responsive"  src="../css/images/map5.jpg" alt="">
-              </div>
-              <div class="modal-footer">
-                <p></p>
-              </div>
-            </div>
-          </div>
-        </div>
-            
-            
-        
-        
-            
-        
-        <div class = "col-sm-6 col-xs-6">
-                    <div class = "portfolio-item">
-                        <div class="portfolio-pic portfolio-pic-map-2" data-toggle="modal" data-target="#leedModal">
-                        </div>
-                    </div>
-            </div>
-        
-        
-        <div class="modal fade" id="leedModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-          <div class="modal-dialog" role="image">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="myModalLabel">LEED Buildings</h4>
-              </div>
-              <div class="modal-body">
-                <img class="img-responsive"  src="../css/images/map6.jpg" alt="">
-              </div>
-              <div class="modal-footer">
-                <p></p>
-              </div>
-            </div>
-          </div>
-        </div>
-            
-            
-            
-            
-        </div>
-
-            <div class="col-md-4 portfolio-paragraph">
-                 
-                     
-                    
                 <p>However, I ran into quite a number of problems along the way. I posted a good amount of features onto Map 2.0, but I found myself waiting for a huge amount of addtional data from other campus partners. For example, I was unable to display Cliff Shuttle bus routes and stops because I was never given access to that GeoJSON data from Parking and Transportation Services (I promise I asked nicely).</p>
                 
-                
-                <p>By the time my internship ended, the map was still incomplete. I still wanted to update several layers on the map, as well as develop different sets of markers for the individual layers, but I simply ran out of time. This was a hefty project that was left in solely my hands. Considering this, I'm pretty proud with what I was able to learn and build in a short couple of months.</p>
-                
+            </div>
             
+            
+            
+            
+            <div class = "flexContainerColumn ">
+                <div class = "gridContentLeft">
+                    <img src = "../css/images/map5.jpg" class = "img-responsive">
+                </div>
+                <div class = "gridContentRight">
+                <img src = "../css/images/map6.jpg" class = "img-responsive">   
+                </div>
                 
             </div>
+            
+        </div>
+        <div class = "flexPortfolioConclusion">
+            <div class = "flexProjectContent">
+            <h3><strong>III. Conclusion</strong></h3>
+               
+               <p>By the time my internship ended, the map was still incomplete. I still wanted to update several layers on the map, as well as develop different sets of markers for the individual layers, but I simply ran out of time. This was a hefty project that was left in solely my hands. Considering this, I'm pretty proud with what I was able to learn and build in a short couple of months.</p>
+                
+               
+                
+               
+            </div>
+         
         
         </div>
-                
-    <div class = "row morepics">
-                
+        
+        <div class="flexTLDR">
 
-            
-                
-                
-       
-            
-        
-            
-        
-            
-        
-        
-            </div>
-        
-        
-        <div class="row tldr">
-
-
-
-            
-
-            <div class="col-sm-6 ">
+            <div class="flexProjectContent">
                 
                 <h3>TL;DR:</h3>
                 <ul>
@@ -715,12 +626,14 @@ var leedBuilding = {
                     <li>Learned Leaflet Javascript framework.</li>
                     <li>Created new interactive JS map.</li>
                     <li>Initiated development of brand identity for the new map.</li>
-                    
                 </ul>
             </div>
-            <div class = "col-sm-6">
-            </div>
+            
         </div>
+    
+    
+    
+   
 
             
             
@@ -729,10 +642,11 @@ var leedBuilding = {
         
         
 
-        <hr>
+        <hr width="85%">
 
         <!-- Footer -->
         <footer>
+            <div class = "container-fluid">
             <div class="row">
                 <div class="col-sm-6">
                     <p style = "padding-top:15px;" align = "center"><small>I am Tyler Stern.</small></p>
@@ -775,10 +689,11 @@ var leedBuilding = {
 
                         </div>
             </div>
+                </div>
             <!-- /.row -->
         </footer>
 
-    </div>
+    </section>
     <!-- /.container -->
 
     <!-- jQuery -->

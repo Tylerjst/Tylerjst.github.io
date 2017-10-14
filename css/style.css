@@ -1,5 +1,4 @@
 /*   General   */
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 html{
     background-color: white;
@@ -14,13 +13,19 @@ body{
     height: 100%;
     position: relative;
     margin: 0;
-    font-family: 'Montserrat-Light', 'Raleway', sans-serif;
+    font-family: 'Lato','Montserrat', 'Raleway', sans-serif;
 }
 
 h3, h2, h1{
-    font-family: 'Raleway-Medium';
+    font-family: 'Montserrat','Raleway-Medium' ;
+    font-weight: bolder;
 }
 
+p{
+    font-size: 18px;
+    font-weight: lighter;
+    line-height: 30px;
+}
 
 
 *{
@@ -79,6 +84,7 @@ hr{
 
 .navbar-brand{
     color:#003333;
+    
 }
 
 .nav a:focus{
@@ -241,7 +247,7 @@ transition-delay: box-shadow .25s;
 .window:hover{
   min-height: 250px;
 /*  border-top: 6px solid #F1FBFD;*/
-  box-shadow: 5px 5px 0px 1px rgba(25,25,112, .6);
+  box-shadow: -20px 0px 0px 0px rgba(25,25,112, .6);
   transition: border-top .25s;
   transition: color .25s;
   transition: box-shadow .55s;
@@ -264,6 +270,7 @@ transition-delay: box-shadow .25s;
 .window-tag h3{
   padding: 0px;
   margin-top: 4px;
+    font-weight: lighter;
 }
 
 .window-1{
@@ -515,6 +522,7 @@ line-height: 60px;
 .Aboutme {
 /*    padding-top: 115px;*/
     font-family: 'Sanchez', serif;
+    
 }
 
 

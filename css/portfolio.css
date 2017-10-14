@@ -1,19 +1,29 @@
 body {
     padding-top: 40px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-    font-family:  'Montserrat-Light', 'Raleway', sans-serif;
+    font-family:  'Lato','Montserrat', 'Raleway', sans-serif;
+  
 }
 
 h3, h1{
-    font-family: 'Raleway-Medium', 'Montserrat-Medium';
+    font-family: 'Montserrat','Raleway-Medium' ;
+    font-weight: bolder;
 }
 
-small{
-    font-family: 'Raleway-ExtraLight';
+p{
+    font-size: 18px;
+    font-weight: lighter;
+    line-height: 30px;
 }
+
+.portfolio{
+    margin-bottom: 20px;
+    text-align: left;
+    
+}
+
 
 .portfolio-item {
     display: block;
-    max-height: 50%;
     position:relative;
     max-width: inherit;
     height: auto;
@@ -866,4 +876,188 @@ footer li{
     background-image:   url(images/report10.jpg);
     background-size: cover;
     background-position: center;
+}
+
+.about {
+    padding: 0px 0;
+}
+
+
+
+.flexContainerTitle {
+display: flex;
+flex-direction: column;
+padding-left: 10%;
+padding-right: 30%;
+align-content: center;
+text-align: left;
+margin-bottom: 30px;
+margin-top: 40px;
+
+}
+
+.flexContainerImageMain {
+    display: flex;
+align-items: center;
+justify-content: center;
+padding-left: 0%;
+padding-right: 0%;
+}
+
+.flexContainerImageFull {
+display: flex;
+flex-direction: row;
+padding-left: 5%;
+padding-right: 5%;
+align-content: center;
+text-align: left;
+}
+
+.flexContainerColumn {
+display: flex;
+flex-direction: row;
+padding-top: 15px;
+flex-wrap: wrap;
+}
+
+.gridImageLeft {
+    flex: 1;
+padding-right: 3px;
+padding-left: 5%;
+}
+
+.gridImageRight {
+    flex: 1;
+padding-let: 3px;
+padding-right: 5%;
+}
+
+.gridContentCenter {
+    flex: 1;
+    padding-left: 10%;
+    padding-right: 10%;
+    
+    
+}
+
+.gridContentLeft {
+flex: 1;
+padding-right: 6px;
+padding-left: 10%;
+align-items: center;
+}
+
+.gridContentRight {
+    flex: 1;
+padding-left: 6px;
+padding-right: 10%;
+}
+
+.flexProjectContent {
+    display: flex;
+flex-direction: column;
+padding-left: 10%;
+padding-right: 30%;
+padding-top: 20px;
+padding-bottom: 20px;
+
+}
+
+.gridVideo {
+    height:305px;
+}
+
+.flexPortfolioConclusion {
+    margin-top: 20px;
+}
+
+.flexPortfolioProcess {
+    margin-top: 20px;
+}
+
+.flexPortfolioProblem {
+    margin-top: 20px;
+}
+
+.flexTLDR {
+    margin-top: 20px;
+}
+
+.flexContainerPicture {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.flexMainPicture {
+    padding-left: 10%;
+    padding-right: 25%;
+    margin-top: 40px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    max-width: 90%;
+/*    box-shadow: -20px 5px 0px 1px rgba(25,25,112, .6);*/
+/*    background-color: rgba(25,25,112, .6);*/
+}
+
+.flyer {
+    display: flex;
+    flex-direction: row;
+    max-height: 600px;
+    align-items: center;
+}
+
+.pic {
+    align-content: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .flexProjectContent{
+         display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    }
+    
+    .flexContainerTitle {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10%;
+    align-content: center;
+    text-align: left;
+    margin-bottom: 30px;
+    margin-top: 40px;
+
+}
+    
+    .flexMainPicture {
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 40px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    max-width: 90%;
+/*    box-shadow: -20px 5px 0px 1px rgba(25,25,112, .6);*/
+/*    background-color: rgba(25,25,112, .6);*/
+}
+}
+
+
+.heading {
+    padding-left: 10%;
+    padding-right: 0%:
+}
+
+.logo {
+    padding: 10px 15px;
+}
+
+.mainpic {
+    box-shadow: -30px 0px 0px 0px rgba(25,25,112, .6);
+    margin-bottom: 35px;
 }
