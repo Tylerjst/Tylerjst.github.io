@@ -16,6 +16,10 @@ body{
     font-family: 'Lato','Montserrat', 'Raleway', sans-serif;
 }
 
+#bootstrapoverride>body{
+    color: RGBA(68, 71, 69, 1.00)
+}
+
 h3, h2, h1{
     font-family: 'Montserrat','Raleway-Medium' ;
     font-weight: bolder;
@@ -28,9 +32,7 @@ p{
 }
 
 
-*{
-  
-}
+
 
 a {
   color:inherit;
@@ -232,38 +234,32 @@ hr{
 
 .window{
   min-height: 250px;
-/*  border-top: 6px solid #F1FBFD;*/
   box-shadow: none;
-  transition: border-top .25s;
+/*
   transition: box-shadow .55s;
 transition-delay: box-shadow .25s;
-  transition: color .25s;
-  color: #F1FBFD;
+*/
   z-index: 1;
- font-family: 'Raleway', sans-serif;
+
 }
 
 
 .window:hover{
   min-height: 250px;
-/*  border-top: 6px solid #F1FBFD;*/
-  box-shadow: -20px 0px 0px 0px rgba(25,25,112, .6);
-  transition: border-top .25s;
-  transition: color .25s;
+/*
+  box-shadow: 0px 65px 0px 0px rgba(56, 51, 96, 1.00);
   transition: box-shadow .55s;
     transition-delay: box-shadow .25s;
-  color:#003333;
+*/
+    color: white;
 
 }
 
 
 
 .window-tag{
-/*  background: rgba(0,0,0, .4);*/
-  padding-top: 1px;
-  padding-bottom: 1px;
-  padding-left: 4px;
-  transition: background .25s;
+  padding-top: 15px;
+
 
 }
 
@@ -372,9 +368,7 @@ transition-delay: box-shadow .25s;
     
 }
 
-.contact a{
-  margin:10px;
-}
+
 
 .contact li{
   list-style: none;
@@ -477,7 +471,7 @@ line-height: 60px;
 }
 
 .window-7 {
-    background-image: url("/css/images/sandpaper.png");
+    background-image: url("../css/images/sandpaper.png");
     background-size: 150%;
     background-repeat: no-repeat;
     background-position: center;
@@ -500,7 +494,7 @@ line-height: 60px;
 
 
 .window-9 {
-    background-image: url("/css/images/farris.jpg");
+    background-image: url("../css/images/farris.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -583,4 +577,12 @@ line-height: 60px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.window-border {
+    margin: 0;
+    background-color: #77E2FC;
+    border: none;
+    height:3px;
+    width:0px;
 }

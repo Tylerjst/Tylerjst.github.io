@@ -57,18 +57,16 @@ footer {
   color: black;
 }
 
-.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover{
-    
-    background-color: orange;
-}
+
 
 a{
   color:black;
   transition: color .25s;
+    text-decoration: underline;
 }
 
 a:hover{
-  color:#77E2FC;
+  color:#383360;
   transition: color .25s;
 }
 
@@ -326,12 +324,15 @@ button{
 }
 
 .portfolio-link {
-    color: #00ffff;
+    color: #383360;
+    transition: background-color .55s, color .55s;
+    text-decoration: underline;
 }
 
 .portfolio-link:hover {
-    text-decoration: none;
-    color: rgba(25,25,112,.6);
+    background-color: #383360;
+    transition: background-color .55s, color .55s;
+    color: white;
 }
 
 .portfolio-pic-ECO-4 {
@@ -361,21 +362,11 @@ button{
 }
 
 .window-tag {
-/*     background: rgba(255,165,0, .9);*/
-  padding-top: 4px;
-/*  padding-left: 4px;*/
-  transition: background .25s;
-position:absolute;
-  bottom: 0;
-/*    border-top: 3px black solid;*/
+  padding-top: 10px;
 
 }
 
-.portfolio-pic:hover > .window-tag{
-  background: rgba(241,251,253, .5);
 
-
-}
 
 .portfolio-text {
     color:#F1FBFD;
@@ -660,13 +651,23 @@ position:absolute;
 
 
 
-.storyboard-link a:hover{
+
+
+a{
+    background-color: none;
+    text-decoration: underline;
+    transition: background-color .55s, color .55s;
+    color: #383360;
     
 }
 
-.a{
-    color:black;
+a:hover{
+    background-color: #383360;
+    transition: background-color .55s, color .55s;
+    color: white;
+    
 }
+
 
 
 
@@ -1073,6 +1074,5 @@ padding-right: 10%;
 }
 
 .mainpic {
-    box-shadow: -30px 0px 0px 0px rgba(25,25,112, .6);
     margin-bottom: 35px;
 }
