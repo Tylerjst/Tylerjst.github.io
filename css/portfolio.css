@@ -7,12 +7,14 @@ body {
 h3, h1{
     font-family: 'Montserrat','Raleway-Medium' ;
     font-weight: bolder;
+    color: #4f4f4f;
 }
 
 p{
     font-size: 18px;
     font-weight: lighter;
     line-height: 30px;
+    color: #4f4f4f;
 }
 
 .portfolio{
@@ -28,7 +30,6 @@ p{
     max-width: inherit;
     height: auto;
     width: auto;
-    border-top: 6px solid #F1FBFD;
     padding-bottom: 10px;
 }
 
@@ -57,18 +58,22 @@ footer {
   color: black;
 }
 
+.nav>li>a:hover{
+    background-color: #383360;
+}
 
+
+.navbar-brand:hover{
+    background-color:#383360;
+}
 
 a{
-  color:black;
-  transition: color .25s;
-    text-decoration: underline;
+  color:#4f4f4f;
+  transition: background-color .55s, color .25s;
+    
 }
 
-a:hover{
-  color:#383360;
-  transition: color .25s;
-}
+
 
 
 
@@ -93,7 +98,7 @@ button{
     min-height: 300px;
     position: relative;
     transition: color .25s;
-  color: black;
+    color: black;
     
 }
 
@@ -324,7 +329,7 @@ button{
 }
 
 .portfolio-link {
-    color: #383360;
+/*    color: #383360;*/
     transition: background-color .55s, color .55s;
     text-decoration: underline;
 }
@@ -442,11 +447,7 @@ button{
 
 }
 
-.window-tag h4 {
-    background: rgba(255,165,0, .8);
-    padding: 6px;
-    margin:0px;
-}
+
 
 .storyboard {
     background: rgba(0,51,51, .8);
@@ -492,9 +493,7 @@ button{
     margin:0px;
 }
 
-.window-tag {
-    
-}
+
 
 .storyboard-tag {
   padding-top: 4px;
@@ -512,11 +511,7 @@ button{
     margin:0px;
 }
 
-.act:hover > .storyboard-tag h1, .act:hover > .storyboard-tag p, .act:hover> .storyboard-tag h4{
-    background: #F1FBFD;
-    transition: background 0.35s;
 
-}
 
 .act2 {
     
@@ -653,16 +648,9 @@ button{
 
 
 
-a{
-    background-color: none;
-    text-decoration: underline;
-    transition: background-color .55s, color .55s;
-    color: #383360;
-    
-}
+
 
 a:hover{
-    background-color: #383360;
     transition: background-color .55s, color .55s;
     color: white;
     
@@ -679,15 +667,9 @@ a:hover{
     color:black;
 }
 
-.storyboard-tag p, .storyboard-tag h1, .storyboard-tag h4 {
-    transition: background .35s;
-}
 
-.storyboard-tag h4 {
-    background: rgba(255,165,0, .8);
-    padding: 6px;
-    margin:0px;
-}
+
+
 
 .storyboard-subplot-tag {
     padding-top: 4px;
@@ -712,18 +694,19 @@ a:hover{
  border-radius: 100%;
 text-align: center;
 line-height: 60px;
-  transition: color .5s;
+  transition: background-color .55s, color .55s;
     display: inline-block;
     text-align: center;
+    background-color: white;
  
 
 }
 
 .btn-contact:hover{
-  color: #00ffff;
-  transition: color .25s;
+  color: white;
+  transition: background-color .55s, color .55s;
     text-align: center;
-
+    background-color: #383360;
 }
 footer ul {
     list-style: none;
@@ -756,7 +739,7 @@ footer li{
 }
 
 .window-pad {
-    padding-top: 35px;
+    padding-top: 85px;
 }
 
 .articles{

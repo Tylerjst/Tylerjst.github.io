@@ -23,27 +23,29 @@ body{
 h3, h2, h1{
     font-family: 'Montserrat','Raleway-Medium' ;
     font-weight: bolder;
+    color:#4f4f4f;
 }
 
 p{
     font-size: 18px;
     font-weight: lighter;
     line-height: 30px;
+    color:#4f4f4f;
 }
 
 
 
 
 a {
-  color:inherit;
- text-decoration: none;
-  transition: color .25s;
+  color:#4f4f4f;
+    text-decoration: none;
+  transition: background-color .55s, color .55s;
 }
 
 a:hover{
   text-decoration: none;
-  color: #77E2FC;
-  transition: color .25s;
+  color: white;
+  transition: background-color .55s, color .55s;
 }
 
 
@@ -60,10 +62,7 @@ hr{
 
 
 /* Navbar Stuff */
-.poop{
-    display: inline;
-    color:#003333;
-}
+
 .nav {
   background-color: white;
   /*font-weight: Bold;*/
@@ -77,21 +76,16 @@ hr{
     font-size: 16px;
 }
 
-
-
-.navbar-border{
-        border-bottom: 1px solid orange;
-
+.nav>li>a:hover{
+    background-color: #383360;
 }
 
-.navbar-brand{
-    color:#003333;
-    
+
+.navbar-brand:hover{
+    background-color:#383360;
 }
 
-.nav a:focus{
-  color:#77E2FC;
-}
+
 
 #mainnav.affix {
     background-color: white;
@@ -175,11 +169,7 @@ hr{
 }
 
 
-.whativedone a{
- color:white;
-  text-decoration: none;
-  transition: color .25s;
-}
+
 
 
 
@@ -234,7 +224,7 @@ hr{
 
 .window{
   min-height: 250px;
-  box-shadow: none;
+  box-shadow: 10px 10px 10px -10px #4f4f4f;
 /*
   transition: box-shadow .55s;
 transition-delay: box-shadow .25s;
@@ -386,17 +376,17 @@ transition-delay: box-shadow .25s;
  border-radius: 100%;
 text-align: center;
 line-height: 60px;
-  transition: color .5s;
+transition: background-color .55s;
     display: inline-block;
     text-align: center;
- 
+  background-color: white;
 
 }
 
 .btn-contact:hover{
-  color: #00ffff;
-  transition: color .25s;
+  transition: background-color .55s;
     text-align: center;
+    background-color: #383360;
 
 }
 
@@ -550,7 +540,8 @@ line-height: 60px;
 }
 
 .window-pad {
-    padding-top: 55px;
+    padding-top: 15px;
+    padding-bottom: 85px;
 }
 
 .poop{
@@ -586,3 +577,5 @@ line-height: 60px;
     height:3px;
     width:0px;
 }
+
+
