@@ -36,13 +36,13 @@ p{
 
 
 
-a {
+#bootstrap-override a {
   color:#4f4f4f;
-    text-decoration: none;
+text-decoration: none;
   transition: background-color .55s, color .55s;
 }
 
-a:hover{
+#bootstrap-override a:hover{
   text-decoration: none;
   color: white;
   transition: background-color .55s, color .55s;
@@ -121,15 +121,11 @@ hr{
 
 
 .jumbotron-main{
-    background-color: inherit;
 /*    height: 100%;*/
+    background-color: inherit;
     width: 100%;
-    background-repeat: no-repeat;
-    color: #006666;
-    text-shadow: 0px 0px 0px;
     position: relative;
-    display: table;
-    font: 'Sanchez', serif;
+    padding-top: 20px;
 }
 
 .jumbotron-main h1{
@@ -179,16 +175,10 @@ hr{
 
 /*    Portfolio   */
 
-.mas-info{
+.homeContent{
     color: #003333;
-    /*background-image:url(http://i.imgur.com/xMxFZab.png);*/
-/*
-    padding-left: 25px;
-    padding-right: 25px;
-*/
     padding-bottom: 60px;
     padding-top: 50px;
-/*    border-top: 6px solid #F1FBFD;*/
 }
 
 
@@ -225,25 +215,12 @@ hr{
 .window{
   min-height: 250px;
   box-shadow: 10px 10px 10px -10px #4f4f4f;
-/*
-  transition: box-shadow .55s;
-transition-delay: box-shadow .25s;
-*/
-  z-index: 1;
+    border-radius: 3px;
 
 }
 
 
-.window:hover{
-  min-height: 250px;
-/*
-  box-shadow: 0px 65px 0px 0px rgba(56, 51, 96, 1.00);
-  transition: box-shadow .55s;
-    transition-delay: box-shadow .25s;
-*/
-    color: white;
 
-}
 
 
 
@@ -260,7 +237,7 @@ transition-delay: box-shadow .25s;
 }
 
 .window-1{
-  background-image: url("images/ecobanner.jpg");
+  background-image: url("images/shuttlePrototypeLight@2x.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -296,18 +273,7 @@ transition-delay: box-shadow .25s;
 
 
 
-/*    Articles     */
 
-
-
-
-.articles{
-
-  padding-top: 60px;
-  padding-bottom: 70px;
-    background-color: rgba(0, 0, 0, .8);
-  color: #F1FBFD;
-}
 
 .articles i{
   display: inline-block;
@@ -315,10 +281,7 @@ transition-delay: box-shadow .25s;
   margin-right: auto;*/
 }
 
-.article-info {
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
+
 
 
 
@@ -328,21 +291,17 @@ transition-delay: box-shadow .25s;
 /*    Contact    */
 
 
-
 .contact{
     
     color: #333;
     padding-top: 80px;
     padding-bottom: 60px;
-/*    padding: 25px;*/
     position: relative;
-    z-index: 1;
     width: 100%;
 
 }
 
-#contact{
-}
+
 
 .contact p{
   margin-top: 10px;
@@ -371,20 +330,19 @@ transition-delay: box-shadow .25s;
 
 
 .btn-contact{
-    width: 50px;
-    height: 50px;
- border-radius: 100%;
-text-align: center;
-line-height: 60px;
-transition: background-color .55s;
+    border-radius:3px;
+    margin:5px;
+    padding: 5px;
+    text-align: center;
+    transition: background-color .55s;
     display: inline-block;
     text-align: center;
-  background-color: white;
+    background-color: white;
 
 }
 
 .btn-contact:hover{
-  transition: background-color .55s;
+    transition: background-color .55s;
     text-align: center;
     background-color: #383360;
 
@@ -503,11 +461,7 @@ transition: background-color .55s;
     display: table;
 }
 
-.Aboutme {
-/*    padding-top: 115px;*/
-    font-family: 'Sanchez', serif;
-    
-}
+
 
 
 
@@ -516,7 +470,7 @@ transition: background-color .55s;
 
 }
 
-#gradient {
+.main {
     padding-bottom: 75px;
 }
 
@@ -550,7 +504,7 @@ transition: background-color .55s;
 }
 
 .window-10 {
-    background-image: url("images/marakech.jpg");
+    background-image: url("images/letters@2x.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -579,3 +533,12 @@ transition: background-color .55s;
 }
 
 
+
+.nav-link {
+    border-radius: 3px;
+}
+
+.navbar-brand {
+    padding: 5px;
+    border-radius: 3px;
+}

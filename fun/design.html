@@ -2,22 +2,24 @@
 <html lang="en">
 
 <head>
+    
 <!--Fonts-->
 <link href="https://fonts.googleapis.com/css?family=Lato:300,400|Montserrat:400,600" rel="stylesheet">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    
+<!--Font Awesome-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/solid.css" integrity="sha384-+0VIRx+yz1WBcCTXBkVQYIBVNEFH1eP6Zknm16roZCyeNg2maWEpk/l/KsyFKs7G" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/brands.css" integrity="sha384-1KLgFVb/gHrlDGLFPgMbeedi6tQBLcWvyNUN+YKXbD7ZFbjX6BLpMDf0PJ32XJfX" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/fontawesome.css" integrity="sha384-jLuaxTTBR42U2qJ/pm4JRouHkEDHkVqH0T1nyQXn1mZ7Snycpf6Rl25VBNthU4z0" crossorigin="anonymous">
+    
     
 <!--Bootstrap-->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
 <!--CSS-->
 <link rel='stylesheet' type = 'text/css' href='../css/portfolio.css'/>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-<!--JS-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script type="text/javascript" src="../script.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
+<link rel="icon" type="image/png" href="css/images/TylerFlavicon.png" />
 
 
     <title>Design</title>
@@ -35,401 +37,448 @@
 
 </head>
 
-<body>
+<body id = "bootstrap-override">
 
     <!-- Navigation -->
-    <nav class="navbar navi navbar-fixed-top" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar" style="background-color:black;"></span>
-                    <span class="icon-bar" style="background-color:black;"></span>
-                    <span class="icon-bar" style="background-color:black;"></span>
-                </button>
-                <a class="navbar-brand logo" href="../index.html"><img src="../css/images/TylerFlavicon.png" width="30" height="30" alt=""></a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-           
-             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class=" nav navbar-nav navbar-right">
-                    <li class = "poop">
-                                <a href="../about.html">About</a>
-                                    </li>	
-                                <li class = "poop">
-								<a href = "../documents/resume.pdf">Resume</a>
-								</li>
-								
-								<li class = "poop">
-										<a href="../contact.html">Contact</a>
-								</li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
+    <nav class="navbar navbar-light navbar-expand-md bg-faded justify-content-center">
+    <a href="../index.html" class="navbar-brand d-flex mr-auto">
+        <img src="../css/images/TylerFlavicon.png" width="30" height="30" alt=""></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar3">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div id = "collapsingNavbar3" class="navbar-collapse collapse w-100">
+        <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link" href="../about.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../documents/resume.pdf">Resume</a>
+            </li>
+        </ul>
+    </div>
     </nav>
 
     
     
     <!-- Page Content -->
     
+    <div class = "main">
     
-    <section class = "about">
-        <div class = "flexMainPicture">
-                <img src = "../css/images/farris.jpg"  class = "img-responsive mainpic">
-            <hr style = "border-top: 3px solid #77E2FC; " align ="left" width = "50px;">
-            
-        </div>
-        
-        
-            <div class = "flexContainerTitle">
-            
-                <h1  class = "">Graphic Design
-                    <br><small>Silly and Serious Projects</small>
-                </h1>
+        <div class = "projectIntro">
+            <div class = "container">
                 
+                <div class = "row projectTitle">
+                    <div class = "col-12">
+                        <h2  class = "portfolio">Visual Design
+                        </h2>
+                        <p><small></small></p>
+                        
+                    </div>
+                
+                </div>  
             
-             
-        
+                <div class = "row projectDetails">
+                    <div class = "col-12 col-md-8">
+                        <img src="../css/images/farris.jpg" class = "img-fluid skillIntroImage">   
+                    </div>
+<!--
+                    <div class = "col-12 col-lg-4 pt-3 pt-lg-0">
+                        <br>
+                        <div class = "row">
+                    
+                            <div class = "col-12">
+                                <p>Filmmaking combines everything that I love: writing, comedy, and having fun with a team. I made and studied films in undergrad, working with friends to create movies like <strong><em>If Else</em></strong>. After I graduated, I decided to take some of my class projects to start my own channel: Student Parking. I'm now using this channel as a hub for the video projects that pop up, including Emory's Creating Emory orientation video and ECO's highlights of COP22 in Marrakech, Morocco.</p>
+                            </div>                        
+                        </div>                    
+                    </div>
+-->
+                
+                </div>
+                <div class = "row projectDetails">
+                    
+                            <div class = "col-12 col-lg-10">
+                                <p class = ""> I started using Photoshop as a toy, faceswapping my friends and making absurd dioramas. </p>
+                                <p>Soon after, I learned my crazy ideas could make for some engaging advertisements and flyers. After about four years of trial and error, my Photoshop skills expanded into Illustrator and InDesign and my work began incorporating more serious work: Facebook banners, flyers, and logos for organizations.</p>
+                                <p>I still like to find ways to add my charm.</p>
+                            </div>
+                           
+                        
+                </div>
+                
+                <br>
+                <hr style = "border-top: 3px solid #77E2FC; " align ="left" width = "50px;">
             </div>
-        <div class ="flexProjectContent">
-            <p class = ""> I started using Photoshop as a toy, faceswapping my friends and making absurd dioramas. </p>
-                    <p>Soon after, I learned my crazy ideas could make for some engaging advertisements and flyers. After about four years of trial and error, my Photoshop skills expanded into Illustrator and InDesign and my work began incorporating more serious work: Facebook banners, flyers, and logos for organizations.</p>
-                    <p>I still like to find ways to add my charm.</p>
+        
+        
         </div>
-        
-        
     
+    <div class = "projectContent">
     
-    </section>
-    <div class="container">
-
-        <!-- Portfolio Item Heading -->
-        
-       
-        
-        
-        <!-- /.row -->
-
-        <!-- Portfolio Item Row -->
-
-        <!-- /.row -->
-
-        <!-- Related Projects Row -->
-        <div class="row morepics first-" >
+        <div class="container">
+        <div class="row" >
                
-            <div class="col-sm-4 col-xs-6">
-                <div class = "portfolio-item">
-                    <div class = "portfolio-pic portfolio-pic-design-7" data-toggle="modal" data-target="#report7Modal">
-                    </div>
-                </div> 
-            </div>
-            
-            <div class="modal fade" id="report7Modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-          <div class="modal-dialog" role="image">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="myModalLabel">Skyfactor Resident Assesstment</h4>
-              </div>
-              <div class="modal-body">
-               <img class="img-responsive"  src="../css/images/SlyfactorGif.gif" alt="">
-              </div>
-              <div class="modal-footer">
-                <p>A GIF I made as part of Residence Life's marketing campaign for their annual skyfactor resident assesstment survey</p>
-              </div>
-            </div>
-          </div>
-        </div> 
-        
+                    <div class="col-12 col-md-4" >
 
-             <div class="col-sm-8 col-xs-6">
-                <div class = "portfolio-item">
-                    <div class = "portfolio-pic portfolio-pic-design-9" data-toggle="modal" data-target="#report9Modal">
+                            <div class = "portfolio-pic portfolio-pic-design-7" data-toggle="modal" data-target="#report7Modal">
+                            </div>
                     </div>
-                </div> 
-            </div>
-            
-            <div class="modal fade" id="report9Modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-          <div class="modal-dialog" role="image">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="myModalLabel">Breanna J. McDaniel</h4>
-              </div>
-              <div class="modal-body">
-                <img class="img-responsive"  src="../css/images/BreBusinessFinal.jpg" alt="">
-              </div>
-              <div class="modal-footer">
-                <p>A facebook banner and business card design for a friend's storytelling brand.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-            
-               <div class="col-sm-8 col-xs-6">
-                <div class = "portfolio-item">
-                    <div class = "portfolio-pic portfolio-pic-design-8" data-toggle="modal" data-target="#report8Modal">
-                    </div>
-                </div> 
-            </div>
-            
-            <div class="modal fade" id="report8Modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-          <div class="modal-dialog" role="image">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="myModalLabel">Emory Alumni Environmental Network</h4>
-              </div>
-              <div class="modal-body">
-                <img class="img-responsive"  src="../css/images/alumnibannerfinal2.jpg" alt="">
-              </div>
-              <div class="modal-footer">
-                <p>A facebook banner for Emory's Alumni Environmental Network.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-            
-            <div class="col-sm-4 col-xs-6">
-                <div class = "portfolio-item">
-                    <div class = "portfolio-pic portfolio-pic-design-10" data-toggle="modal" data-target="#report10Modal">
-                    </div>
-                </div> 
-            </div>
-            
-            <div class="modal fade" id="report10Modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-          <div class="modal-dialog" role="image">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="myModalLabel">NASEC 2014 Mock-Up</h4>
-              </div>
-              <div class="modal-body">
-               <img class="img-responsive"  src="../css/images/Mars.jpg" alt="">
-              </div>
-              <div class="modal-footer">
-                <p>An infographic detailing an automated rover system called EVE developed at the 2014 Naval Academy Science and Engineering Conference. Learn more <a href = "../documents/NASEC.pdf" class = "portfolio-link">here.</a></p>
-              </div>
-            </div>
-          </div>
-        </div> 
-        
-            
 
-            <div class="col-sm-4 col-xs-6">
-                <div class = "portfolio-item">
+                    <div class="modal fade" id="report7Modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                      <div class="modal-dialog" role="image">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="myModalLabel">Skyfactor Resident Assessment</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <img class="img-fluid"  src="../css/images/SlyfactorGif.gif" alt="">
+                          </div>
+                          <div class="modal-footer">
+                            <p>A GIF I made as part of Residence Life's marketing campaign for their annual skyfactor resident assesstment survey</p>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            
+            
+<!--
+                    <div class="modal fade" id="report7Modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                  <div class="modal-dialog" role="image">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Skyfactor Resident Assesstment</h4>
+                      </div>
+                      <div class="modal-body">
+                       <img class="img-responsive"  src="../css/images/SlyfactorGif.gif" alt="">
+                      </div>
+                      <div class="modal-footer">
+                        <p>A GIF I made as part of Residence Life's marketing campaign for their annual skyfactor resident assesstment survey</p>
+                      </div>
+                    </div>
+                  </div>
+                </div> 
+-->
+
+
+                     <div class="col-12 col-md-8 " >
+                       <div class = "portfolio-pic portfolio-pic-design-9 "data-toggle="modal" data-target="#report9Modal"></div>
+
+                    </div>
+
+                    <div class="modal fade" id="report9Modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-lg" role="image">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        
+                        <h5 class="modal-title" id="myModalLabel">Breanna J. McDaniel</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                      </div>
+                      <div class="modal-body">
+                        <img class="img-fluid"  src="../css/images/BreBusinessFinal.jpg" alt="">
+                      </div>
+                      <div class="modal-footer">
+                        <p>A facebook banner and business card design for a friend's storytelling brand.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+            
+        </div>
+            <br>
+        <div class = "row">
+                       <div class="col-12 col-md-8">
+                            <div class = "portfolio-pic portfolio-pic-design-8" data-toggle="modal" data-target="#report8Modal">
+
+                            </div> 
+                        </div>
+            
+                    <div class="modal fade" id="report8Modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-lg" role="image">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        
+                        <h5 class="modal-title" id="myModalLabel">Emory Alumni Environmental Network</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                      </div>
+                      <div class="modal-body">
+                        <img class="img-fluid"  src="../css/images/alumnibannerfinal2.jpg" alt="">
+                      </div>
+                      <div class="modal-footer">
+                        <p>A facebook banner for Emory's Alumni Environmental Network.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                    <div class="col-12 col-md-4">
+                        <div class = "portfolio-pic portfolio-pic-design-10" data-toggle="modal" data-target="#report10Modal">
+                            
+                        </div> 
+                    </div>
+
+                    <div class="modal fade" id="report10Modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-lg" role="image">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        
+                        <h5 class="modal-title" id="myModalLabel">NASEC 2014 Mock-Up</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                      </div>
+                      <div class="modal-body">
+                       <img class="img-fluid"  src="../css/images/Mars.jpg" alt="">
+                      </div>
+                      <div class="modal-footer">
+                        <p>An infographic detailing an automated rover system called EVE developed at the 2014 Naval Academy Science and Engineering Conference. Learn more <a href = "../documents/NASEC.pdf" class = "portfolio-link">here.</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div> 
+        </div>
+        <br>
+        <div class = "row">
+                <div class="col-12 col-md-4">
                     <div class = "portfolio-pic portfolio-pic-design-1" data-toggle="modal" data-target="#design1Modal">
+                     
                     </div>
                 </div>
-            </div>
-            
-          <div class="modal fade" id="design1Modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-          <div class="modal-dialog" role="image">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="myModalLabel">2015 EBI Survey Meme Contest</h4>
-              </div>
-              <div class="modal-body">
-                <img class="img-responsive"  src="../css/images/EBI2015.jpg" alt="">
-              </div>
-              <div class="modal-footer">
-                <p>Emory's Office of Residence Life hosts a meme contest every year to advertise their EBI survey. This was my submission, featuring Senior Director Scott Rausch, Associate Directors Ryan Roche and Kayla Hamilton, and their melee weapons of choice. <br> I won :)</p>
-              </div>
-            </div>
-          </div>
-        </div> 
-            
-            
-            <div class="col-sm-8 col-xs-6">
-                <div class = "portfolio-item">
-                    <div class = "portfolio-pic portfolio-pic-design-2" data-toggle="modal" data-target="#report2Modal">
-                    </div>
-                </div>
-            </div>
-            
-            <div class="modal fade" id="report2Modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-          <div class="modal-dialog" role="image">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="myModalLabel">Emory Engineering Society</h4>
-              </div>
-              <div class="modal-body">
-                <img class="img-responsive"  src="../css/images/eesBlueprintFINAL.jpg" alt="">
-              </div>
-              <div class="modal-footer">
-                <p>I helped start an engineering society at my school during my senior year. Most of my time was spent creating logos, branding, and communications materials for the group.</p>
-              </div>
-            </div>
-          </div>
-        </div> 
-         <div class="col-sm-8 col-xs-6">
-                <div class = "portfolio-item">
-                    <div class = "portfolio-pic portfolio-pic-design-5" data-toggle="modal" data-target="#report5Modal">
-                    </div>
-                </div> 
-            </div>
-            
-            <div class="modal fade" id="report5Modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-          <div class="modal-dialog" role="image">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="myModalLabel">Residence Life Facebook Banner</h4>
-              </div>
-              <div class="modal-body">
-                <img class="img-responsive"  src="../css/images/FYEstarbanner.jpg" alt="">
-              </div>
-              <div class="modal-footer">
-                <p>Just trying to put my physics degree to use.</p>
-              </div>
-            </div>
-          </div>
-        </div>    
-            
-            
 
-            <div class="col-sm-4 col-xs-6">
-                <div class = "portfolio-item">
-                    <div class = "portfolio-pic portfolio-pic-design-3" data-toggle="modal" data-target="#report3Modal">
+                  <div class="modal fade" id="design1Modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" >
+                  <div class="modal-dialog" role="image">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        
+                        <h5 class="modal-title" id="myModalLabel">2015 EBI Survey Meme Contest</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                      </div>
+                      <div class="modal-body">
+                        <img class="img-fluid"  src="../css/images/EBI2015.jpg" alt="">
+                      </div>
+                      <div class="modal-footer">
+                        <p>Emory's Office of Residence Life hosts a meme contest every year to advertise their EBI survey. This was my submission, featuring Senior Director Scott Rausch, Associate Directors Ryan Roche and Kayla Hamilton, and their melee weapons of choice. <br> I won :)</p>
+                      </div>
+                    </div>
+                  </div>
+                </div> 
+
+
+                <div class="col-12 col-md-8">
+                    <div class = "portfolio-pic portfolio-pic-design-2" data-toggle="modal" data-target="#report2Modal">
+                       
                     </div>
                 </div>
-            </div>
+
+                <div class="modal fade" id="report2Modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-lg" role="image">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        
+                        <h5 class="modal-title" id="myModalLabel">Emory Engineering Society</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <img class="img-fluid"  src="../css/images/eesBlueprintFINAL.jpg" alt="">
+                      </div>
+                      <div class="modal-footer">
+                        <p>I helped start an engineering society at my school during my senior year. Most of my time was spent creating logos, branding, and communications materials for the group.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div> 
+        </div>  
+        <br>  
+        <div class = "row">
             
-            <div class="modal fade" id="report3Modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-          <div class="modal-dialog" role="image">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="myModalLabel">ResLife Survey Flyer</h4>
-              </div>
-              <div class="modal-body">
-                <img class="img-responsive"  src="../css/images/watch.jpg" alt="">
-              </div>
-              <div class="modal-footer">
-                <p>An advertisement for a Residence Life End-Of-The-Semester survey.</p>
-              </div>
-            </div>
-          </div>
-        </div> 
-            
-        
-            <div class="col-sm-4 col-xs-6">
-                <div class = "portfolio-item">
+                 <div class="col-12 col-md-8">
+                        <div class = "portfolio-pic portfolio-pic-design-5" data-toggle="modal" data-target="#report5Modal">
+                          
+                        </div> 
+                    </div>
+
+                    <div class="modal fade" id="report5Modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                      <div class="modal-dialog modal-lg" role="image">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            
+                            <h5 class="modal-title" id="myModalLabel">Residence Life Facebook Banner</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                  <span aria-hidden="true">&times;</span>
+                              </button>
+                          </div>
+                          <div class="modal-body">
+                            <img class="img-fluid"  src="../css/images/FYEstarbanner.jpg" alt="">
+                          </div>
+                          <div class="modal-footer">
+                            <p>Just trying to put my physics degree to use.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>    
+
+
+
+                <div class="col-12 col-md-4">
+                    <div class = "portfolio-pic portfolio-pic-design-3" data-toggle="modal" data-target="#report3Modal">
+                 
+                    </div>
+                </div>
+
+                <div class="modal fade" id="report3Modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                  <div class="modal-dialog" role="image">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        
+                        <h5 class="modal-title" id="myModalLabel">ResLife Survey Flyer</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <img class="img-fluid"  src="../css/images/watch.jpg" alt="">
+                      </div>
+                      <div class="modal-footer">
+                        <p>An advertisement for a Residence Life End-Of-The-Semester survey.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div> 
+        </div>  
+        <br>
+        <div class = "row">
+                <div class="col-12 col-md-4">
                     <div class = "portfolio-pic portfolio-pic-design-4" data-toggle="modal" data-target="#report4Modal">
+                      
+                    </div> 
+                </div>
+
+                <div class="modal fade" id="report4Modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                  <div class="modal-dialog" role="image">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        
+                        <h5 class="modal-title" id="myModalLabel">Residence Life Facebook Banner</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                          </button>
+                      </div>
+                      <div class="modal-body">
+                        <img class="img-fluid"  src="../css/images/LogoInLights.jpg" alt="">
+                      </div>
+                      <div class="modal-footer">
+                        <p>More designs for Residence Life.</p>
+                      </div>
                     </div>
+                  </div>
                 </div> 
-            </div>
-            
-            <div class="modal fade" id="report4Modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-          <div class="modal-dialog" role="image">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="myModalLabel">Residence Life Facebook Banner</h4>
-              </div>
-              <div class="modal-body">
-                <img class="img-responsive"  src="../css/images/LogoInLights.jpg" alt="">
-              </div>
-              <div class="modal-footer">
-                <p>More designs for Residence Life.</p>
-              </div>
-            </div>
-          </div>
-        </div> 
-            
-            
-            
-            <div class="col-sm-8 col-xs-6">
-                <div class = "portfolio-item">
+
+
+
+                <div class="col-12 col-md-8">
                     <div class = "portfolio-pic portfolio-pic-design-6" data-toggle="modal" data-target="#report6Modal">
+                       
+                    </div> 
+                </div>
+
+                <div class="modal fade" id="report6Modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-lg" role="image">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        
+                        <h5 class="modal-title" id="myModalLabel">Residence Life Announcement</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                      </div>
+                      <div class="modal-body">
+                        <img class="img-fluid"  src="../css/images/HousingAssignmentsBanner.png" alt="">
+                      </div>
+                      <div class="modal-footer">
+                        <p>This was after winter arrived in Westeros, so I promise it made sense at the time.</p>
+                      </div>
                     </div>
-                </div> 
-            </div>
-            
-            <div class="modal fade" id="report6Modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-          <div class="modal-dialog" role="image">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="myModalLabel">Residence Life Announcement</h4>
-              </div>
-              <div class="modal-body">
-                <img class="img-responsive"  src="../css/images/HousingAssignmentsBanner.png" alt="">
-              </div>
-              <div class="modal-footer">
-                <p>This was after winter arrived in Westeros, so I promise it made sense at the time.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-            
+                  </div>
+                </div>
+        </div>   
          
             
         
 
-        </div>
+    </div>
         <!-- /.row -->
-
-
-        <hr>
+    </div>
+    </div>
 
         <!-- Footer -->
         <footer>
-            <div class="row">
-                <div class="col-sm-6">
-                    <p style = "padding-top:15px;" align = "center"><small>I am Tyler Stern.</small></p>
-                </div>
-                <div class = "col-sm-6" align ="center">
+            <hr width="85%">
+            <div class = "container footerContent">
+                <div class="row justify-content-center text-center align-content-center">
+                    <div class="col-12 col-sm-6" >
+                        <p ><small>I am Tyler Stern.</small></p>
+                    </div>
+                        <div class = "col-12 col-sm-6 justify-contents-center">
                           <ul>
-                          <li>
-                              
-                          <a href = "mailto:tyler.jst@gmail.com" class= "btn-contact" >
-                                        <i class = "fa fa-envelope fa-2x" ></i>
-                          
-                              </a>
-                        </li>
-
-                              <li>
-                              <a href = "https://github.com/Tylerjst" target="_blank" class= "btn-contact">
-                                      <i class = "fa fa-github fa-2x" ></i>
-                                    
-
-
-                              </a>
-                              </li>
-                              <li>
-                                  
-                              <a href = "https://www.linkedin.com/in/tjstern" target="_blank" class= "btn-contact">
-                                                                <i class = "fa fa-linkedin fa-2x" ></i>
-                                  </a>
-                                
-                              
+                            <li>
+                            <a href = "mailto:tyler.jst@gmail.com"  >
+                                <btn class= "btn-contact">
+                                    <i class="fas fa-envelope fa-lg"></i>
+                                </btn>
+                            </a>
                             </li>
-                              <li>
-                                  
-                              <a href = "https://vimeo.com/studentparking" target="_blank" class= "btn-contact">
-                                                                <i class = "fa fa-vimeo fa-2x" ></i>
-                                  </a>
-                                
-                              
+
+                            <li>
+                                <a href = "https://github.com/Tylerjst" target="_blank" >
+                                    <btn class= "btn-contact">
+                                          <i class="fab fa-github fa-lg"></i>
+                                    </btn>
+                                </a>
+                            </li>
+                            <li>
+                                <a href = "https://www.linkedin.com/in/tjstern" target="_blank" >
+                                    <btn class= "btn-contact">
+                                        <i class="fab fa-linkedin-in fa-lg"></i>
+                                    </btn>   
+                                </a>
+                            </li>
+                            <li>
+                                <a href = "https://vimeo.com/studentparking" target="_blank" >
+                                    <btn class = "btn-contact">
+                                        <i class="fab fa-vimeo-v fa-lg"></i>
+                                    </btn>
+                                </a>    
                             </li>
                           </ul>
 
                         </div>
-            </div>
+                    </div>
+                
             <!-- /.row -->
-        </footer>
+            </div>
+    </footer>
 
-        </div>
-    <!-- /.container -->
-    <!-- jQuery -->
+    
 
-    <!-- Bootstrap Core JavaScript -->
+<!--JS-->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+<script type="text/javascript" src="../script.js"></script>
 
 </body>
 
