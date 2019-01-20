@@ -1046,7 +1046,7 @@ padding-right: 10%;
 }
 
 .projectTitle {
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .projectDetails {
@@ -1107,6 +1107,7 @@ padding-right: 10%;
 
 .intro {
     margin-top: 30px;
+    
 }
 
 .shuttleSign {
@@ -1128,4 +1129,17 @@ padding-right: 10%;
 .portfolio-pic:hover {
     box-shadow: 15px 15px 15px -10px #4f4f4f;
     transition: box-shadow .55s;
+}
+
+.headshot {
+    border-radius: 50%;
+    width:100%;
+}
+
+.projectIntroImageWide {
+    width: 100%;
+    height: 60vh;
+    background-image: url(../css/images/letters@2x.jpg);
+    background-size: cover;
+    background-position: center;
 }

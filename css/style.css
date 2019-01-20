@@ -38,12 +38,10 @@ p{
 
 #bootstrap-override a {
   color:#4f4f4f;
-text-decoration: none;
   transition: background-color .55s, color .55s;
 }
 
 #bootstrap-override a:hover{
-  text-decoration: none;
   color: white;
   transition: background-color .55s, color .55s;
 }
@@ -216,6 +214,7 @@ hr{
   min-height: 250px;
   box-shadow: 10px 10px 10px -10px #4f4f4f;
     border-radius: 3px;
+    display: flex;
 
 }
 
@@ -361,9 +360,17 @@ hr{
 
 
 
+.portfolio-link {
+/*    color: #383360;*/
+    transition: background-color .55s, color .55s;
+    text-decoration: underline;
+}
 
-
-
+.portfolio-link:hover {
+    background-color: #383360;
+    transition: background-color .55s, color .55s;
+    color: white;
+}
 
 
 
@@ -541,4 +548,25 @@ hr{
 .navbar-brand {
     padding: 5px;
     border-radius: 3px;
+}
+
+.intro {
+    padding-top:40px;
+    font-size: 48px;
+}
+
+.skillTag {
+    width: 120px;
+    background-color: #dddddd;
+    border-radius: 3px;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.skillTag p {
+    color: ;
+    font-size:12px;
 }
