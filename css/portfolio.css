@@ -1152,7 +1152,7 @@ padding-right: 10%;
 }
 
 .projectIntroImageVote {
-    background-image: url(../css/images/votePurge.gif);
+    background-image: url(../css/images/voteMap.png);
 }
 
 
@@ -1163,4 +1163,8 @@ padding-right: 10%;
 
 .projectChallenge {
     
+}
+
+.projectIntroImageEdu {
+    background-image: url("../css/images/waterbottle.gif");
 }
