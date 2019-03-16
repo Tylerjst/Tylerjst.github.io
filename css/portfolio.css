@@ -36,7 +36,7 @@ p{
 }
 
 footer {
-    margin: 50px 0;
+    
 }
 
 
@@ -1052,7 +1052,7 @@ padding-right: 10%;
 .projectDetails {
     margin-top: 20px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: flex-end;
     align-items: flex-start;
 }
 
@@ -1167,4 +1167,26 @@ padding-right: 10%;
 
 .projectIntroImageEdu {
     background-image: url("../css/images/waterbottle.gif");
+}
+
+.projectIntroImageTriton {
+    background-image: url("../css/images/tritonMain@2x.png");
+}
+
+.fa-user {
+  color: #383360;
+}
+
+.solution {
+    background-color: #7CE2FA;
+    color: white;
+    border-radius: 6px;
+}
+
+.pageFooter {
+    margin: 50px 0;
+}
+
+.blockquote-footer {
+    font-size:14px;
 }

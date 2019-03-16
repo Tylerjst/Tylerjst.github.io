@@ -570,3 +570,10 @@ hr{
     color: ;
     font-size:12px;
 }
+
+.windowTriton {
+    background-image: url("images/tritonMain@2x.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
