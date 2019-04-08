@@ -1181,6 +1181,7 @@ padding-right: 10%;
     background-color: #7CE2FA;
     color: white;
     border-radius: 6px;
+    padding-bottom: 10px;
 }
 
 .pageFooter {
@@ -1189,4 +1190,16 @@ padding-right: 10%;
 
 .blockquote-footer {
     font-size:14px;
+}
+
+.projectIntroImageVideo {
+    background-image: url(../css/images/video.jpg);
+}
+
+.videoHighlight {
+    margin-bottom: 50px;
+}
+
+.projectIntroImageDesign {
+    background-image:url(../css/images/farris.jpg);
 }
